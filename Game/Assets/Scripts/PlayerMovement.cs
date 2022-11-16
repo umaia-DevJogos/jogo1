@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float speed;
     private Rigidbody2D rb;
-
+    private bool isGrounded;
     // Awake is called every time the script is loaded
     private void Awake()
     {
@@ -26,13 +26,13 @@ public class PlayerMovement : MonoBehaviour
 
         rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y); // Move horizontally
 
-        //Jump
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.Space))
+        // Call Jump
+        if ((Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.Space)) && isGrounded)
         {
-            rb.velocity = new Vector2(rb.velocity.x, speed);
+            Jump();
         }
 
-        //Flip Sprite
+        // Flip Sprite
         if (horizontalInput > 0.01f)
         {
             transform.localScale = Vector3.one;
@@ -40,5 +40,19 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
         }
+    }
+
+    private void Jump()
+    {
+        rb.velocity = new Vector2(rb.velocity.x, speed);
+        isGrounded = false;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Terrain")
+        {
+            isGrounded = true;
+        }        
     }
 }
