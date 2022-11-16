@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float speed;
     [SerializeField] private float vJumpForce;
-    //[SerializeField] private float hJumpForce; //Talvez venha a ser utilizado (legacy)
+    [SerializeField] private float hJumpForce; //Em testes
     [SerializeField] private LayerMask TerrainL;
     private Rigidbody2D rb;
     private BoxCollider2D boxCollider;
@@ -35,7 +35,8 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = Vector3.one;
         } else if (horizontalInput < -0.01f)
         {
-            transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+            transform.localScale = new Vector3(-1, 1, 1);
+            //transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
         }
 
         // WallJump (with cooldown)
@@ -73,7 +74,7 @@ public class PlayerMovement : MonoBehaviour
 
             if (horizontalInput == 0) // Check player is moving (for wall to wall jumps)
             {
-                rb.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 15, 0);
+                rb.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * hJumpForce, 0);
                 transform.localScale = new Vector3(-Mathf.Sign(transform.localScale.x), transform.localScale.y, transform.localScale.z);
             }
             else {
