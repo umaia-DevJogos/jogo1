@@ -18,7 +18,9 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(player.position.x + finalDistance, transform.position.y, transform.position.z); // Follow the player on the X axis
         finalDistance = Mathf.Lerp(finalDistance, (distance * player.localScale.x), Time.deltaTime * speed);
+        transform.position = new Vector3(player.position.x + finalDistance, transform.position.y, transform.position.z); // Follow the player on the X axis
+        
+        //Debug.Log(finalDistance);
     }
 }

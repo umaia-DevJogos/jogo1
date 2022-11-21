@@ -12,16 +12,21 @@ public class PlayerMovement : MonoBehaviour
     private BoxCollider2D boxCollider;
     private float wJumpCooldown;
     private float horizontalInput;
-    // Awake is called every time the script is loaded
+
+    // Awake is called every time the script is loaded (EM TESTES!)
+    /*
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>(); //Ir buscar componente RigidBody2D aplicada ao player
         boxCollider = GetComponent<BoxCollider2D>();
     }
+    */
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody2D>(); //Ir buscar componente RigidBody2D aplicada ao player
+        boxCollider = GetComponent<BoxCollider2D>();
     }
 
     // Update is called once per frame
@@ -44,7 +49,7 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y); // Move horizontally
 
-            if(onWall() && isGrounded())
+            if(onWall() && !isGrounded())
             {
                 rb.gravityScale = 0;
                 rb.velocity = Vector2.zero;
