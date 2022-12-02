@@ -89,10 +89,6 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-
-    }
     private bool isGrounded()
     {
         RaycastHit2D ray = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, Vector2.down, 0.1f, TerrainL); // Box shaped RayCast. BoxCast gets the center of the box, the size, the direction (down), the size of the ray and finally the layer mask
@@ -103,5 +99,13 @@ public class PlayerMovement : MonoBehaviour
     {
         RaycastHit2D ray = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, new Vector2(transform.localScale.x, 0), 0.1f, TerrainL); // Box shaped RayCast. BoxCast gets the center of the box, the size, the direction (down), the size of the ray and finally the layer mask
         return ray.collider != null;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision) // Delete coin
+    {
+        if (collision.transform.tag == "Enemy")
+        {
+            Destroy(gameObject);
+        }
     }
 }
