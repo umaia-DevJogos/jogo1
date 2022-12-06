@@ -101,7 +101,7 @@ public class PlayerMovement : MonoBehaviour
         return ray.collider != null;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision) // Delete coin
+    private void OnCollisionEnter2D(Collision2D collision) // Check for enemy 
     {
         if (collision.transform.tag == "Enemy")
         {
