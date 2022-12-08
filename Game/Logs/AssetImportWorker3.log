@@ -1,0 +1,1782 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'en' Physical Memory: 16315 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+E:/Unity Projects/2D v1/Game
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+16221
+Successfully changed project path to: E:/Unity Projects/2D v1/Game
+E:/Unity Projects/2D v1/Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 153.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path E:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity Projects/2D v1/Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon (TM) RX 480 Graphics (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     4074 MB
+    Driver:   31.0.12029.1042
+Initialize mono
+Mono path[0] = 'E:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005385 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 165.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.273 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1274ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (948ms)
+			LoadAssemblies (141ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (350ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (491ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (166ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (231ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007632 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\2D v1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\2D v1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 193.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.542 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2543ms)
+		BeginReloadAssembly (190ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (2134ms)
+			LoadAssemblies (153ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (484ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (149ms)
+			SetupLoadedEditorAssemblies (1216ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (194ms)
+				BeforeProcessingInitializeOnLoad (162ms)
+				ProcessInitializeOnLoadAttributes (758ms)
+				ProcessInitializeOnLoadMethodAttributes (84ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.34 seconds
+Refreshing native plugins compatible for Editor in 1.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4465 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (266.3 KB). Loaded Objects now: 4916.
+Memory consumption went from 168.5 MB to 168.2 MB.
+Total: 5.612500 ms (FindLiveObjects: 0.419900 ms CreateObjectMapping: 0.224400 ms MarkObjects: 4.662000 ms  DeleteObjects: 0.304500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 13792.145773 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(ff5a337589497544b8a6efd99a684539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(ff5a337589497544b8a6efd99a684539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ce68c9b2412a66ae87f835d008b150') in 0.064201 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005131 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\2D v1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\2D v1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.294 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1295ms)
+		BeginReloadAssembly (179ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (992ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (294ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (473ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (292ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.37 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4441 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (249.1 KB). Loaded Objects now: 4919.
+Memory consumption went from 166.5 MB to 166.3 MB.
+Total: 5.096200 ms (FindLiveObjects: 0.845900 ms CreateObjectMapping: 0.121300 ms MarkObjects: 3.855200 ms  DeleteObjects: 0.271500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005581 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\2D v1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\2D v1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.275 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1276ms)
+		BeginReloadAssembly (181ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (984ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (309ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (455ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (289ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4441 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (248.9 KB). Loaded Objects now: 4922.
+Memory consumption went from 166.5 MB to 166.3 MB.
+Total: 4.630900 ms (FindLiveObjects: 0.362900 ms CreateObjectMapping: 0.123000 ms MarkObjects: 3.894900 ms  DeleteObjects: 0.248200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005440 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\2D v1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\2D v1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.315 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1316ms)
+		BeginReloadAssembly (171ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1030ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (314ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (488ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (311ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4441 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (248.7 KB). Loaded Objects now: 4925.
+Memory consumption went from 166.5 MB to 166.3 MB.
+Total: 4.351500 ms (FindLiveObjects: 0.347800 ms CreateObjectMapping: 0.120500 ms MarkObjects: 3.663200 ms  DeleteObjects: 0.218400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006031 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\2D v1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\2D v1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.275 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1276ms)
+		BeginReloadAssembly (171ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (990ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (324ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (443ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (276ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.36 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4441 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (249.0 KB). Loaded Objects now: 4928.
+Memory consumption went from 166.5 MB to 166.3 MB.
+Total: 5.219700 ms (FindLiveObjects: 0.371100 ms CreateObjectMapping: 0.125000 ms MarkObjects: 4.470800 ms  DeleteObjects: 0.251400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 566.548142 seconds.
+  path: Assets/Animations/Sword.controller
+  artifactKey: Guid(5f4a36cecc0f7a244a8171affdd4854a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/Sword.controller using Guid(5f4a36cecc0f7a244a8171affdd4854a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3326df3f665aebecabc8461889fbd435') in 0.539977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/File Numbers.png
+  artifactKey: Guid(77db329131de7704fb4de3d9de9dd00f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/File Numbers.png using Guid(77db329131de7704fb4de3d9de9dd00f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23ef030eecba432298e621af7f3c9998') in 0.777559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/29.png
+  artifactKey: Guid(f1bf1063aea46c04b93f14360c1740fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/29.png using Guid(f1bf1063aea46c04b93f14360c1740fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '39208493475bd72f2dce5efb20fbd41f') in 0.182546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/02.png
+  artifactKey: Guid(007a5578e5e20fb4f8a042436a283680) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/02.png using Guid(007a5578e5e20fb4f8a042436a283680) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9a046458843364175fe7a6a6370a373') in 0.129636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/27b.png
+  artifactKey: Guid(28a661773e9acc54f95f96576179a415) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/27b.png using Guid(28a661773e9acc54f95f96576179a415) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7281000a918dc87e2579a001160f2102') in 0.264263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack Num Text/Pack 3.png
+  artifactKey: Guid(f556819d3156465499d90c2e99a9f5d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack Num Text/Pack 3.png using Guid(f556819d3156465499d90c2e99a9f5d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60be689d11a571c813f44ee6de23ebcd') in 0.145401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/28.png
+  artifactKey: Guid(56ae84e60dbb8b244a9b47e4d4e47613) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/28.png using Guid(56ae84e60dbb8b244a9b47e4d4e47613) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85bd13bb2d6310f1b2b3c538389eb7c5') in 0.142134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scripts/AIPatrol.cs
+  artifactKey: Guid(5d937f84aab408f4f939dbabcc46ebba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/AIPatrol.cs using Guid(5d937f84aab408f4f939dbabcc46ebba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42bcbf106c5d3cfda9d4fdb23fdca758') in 0.011352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/32.png
+  artifactKey: Guid(ead2fd350a66a2b4a960f4fd279f51e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/32.png using Guid(ead2fd350a66a2b4a960f4fd279f51e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ff76ef1eb4119dd371d1d17662a2bf2') in 0.064585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/31.png
+  artifactKey: Guid(17879ab3ddf91e34cb38e18d44c4e36e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/31.png using Guid(17879ab3ddf91e34cb38e18d44c4e36e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a9ebad55559ead62f8a4f77a967f3da') in 0.072330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px All.png
+  artifactKey: Guid(b1d64835342300f4081d6f6ccd366604) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px All.png using Guid(b1d64835342300f4081d6f6ccd366604) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f64ad70da23bd061c26bf0dfda3804c') in 0.091257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px All.png
+  artifactKey: Guid(87f45671995f4364b87e92744a71f842) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px All.png using Guid(87f45671995f4364b87e92744a71f842) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '80175de9805db3d4cd258c43a39f4130') in 0.080571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack Num Text/Pack 1.png
+  artifactKey: Guid(b8804ef3831cd0a408d0d6cb09b5170c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack Num Text/Pack 1.png using Guid(b8804ef3831cd0a408d0d6cb09b5170c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59890f795bfb07f8b8edaa4e4f64f103') in 0.058271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/01.png
+  artifactKey: Guid(f62449d251afcc44a8d2ae2c988c5d40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/01.png using Guid(f62449d251afcc44a8d2ae2c988c5d40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e81672d859a53d60f6b7291d1efb176') in 0.080088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/30.png
+  artifactKey: Guid(08d0992b49524044e8ba990851b27b87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/30.png using Guid(08d0992b49524044e8ba990851b27b87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2cf11eb44debb478e3236007400e9d95') in 0.074344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/0px All (sloppy).png
+  artifactKey: Guid(fa2e9cea7723cf04ca130841616d40c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/0px All (sloppy).png using Guid(fa2e9cea7723cf04ca130841616d40c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9177a6102bc05ff3ce31c4c20bab8880') in 0.081128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/26.png
+  artifactKey: Guid(7d2ffcd9782783040b8da7ad57347187) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/26.png using Guid(7d2ffcd9782783040b8da7ad57347187) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9e610ad2bda9457f1397f68b62ec04a') in 0.046974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/24.png
+  artifactKey: Guid(f388c2394382958498e27382af0cb7b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/24.png using Guid(f388c2394382958498e27382af0cb7b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0ed66a96448e2f391f2502b0b5c6a52') in 0.060807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/23.png
+  artifactKey: Guid(26a1d46a57eb00e4ca576c091d86ca80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/23.png using Guid(26a1d46a57eb00e4ca576c091d86ca80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06dda4e83f7a33c140b4eaea86a0add6') in 0.048899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack Num Text/Pack 4.png
+  artifactKey: Guid(044a82a52cfcd5c4b9119393d8c662ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack Num Text/Pack 4.png using Guid(044a82a52cfcd5c4b9119393d8c662ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db4e0ef56c206751dde144e3fd76df2c') in 0.042432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/10.png
+  artifactKey: Guid(05bf15a59263c014aa51ae658a01ef5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/10.png using Guid(05bf15a59263c014aa51ae658a01ef5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd4a66ebf5ba33f39b2a0b69212c7296') in 0.042677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/37.png
+  artifactKey: Guid(b22170853511eee4fbee79df947902c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/37.png using Guid(b22170853511eee4fbee79df947902c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea29b8c9d292165469d3f8c9e6ac4cf6') in 0.080296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/27.png
+  artifactKey: Guid(5ecd5858475f8e242a280e3718a488d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/27.png using Guid(5ecd5858475f8e242a280e3718a488d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '136a3611f279bf79963f2c79d90e9915') in 0.052185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/Extra or Unfinished 2.png
+  artifactKey: Guid(5be7ee30679fb7e4bab5fd896ea01515) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/Extra or Unfinished 2.png using Guid(5be7ee30679fb7e4bab5fd896ea01515) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc7ba833b98acaa7a8c408bd5ca2928b') in 0.078214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px All.png
+  artifactKey: Guid(e633a063b58c4b040806acd88eea9229) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px All.png using Guid(e633a063b58c4b040806acd88eea9229) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '143762574bdb083f8d440e59d0a50fcb') in 0.060634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/03.png
+  artifactKey: Guid(5aad90a8b95f4c748a163089b4f8e8e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/03.png using Guid(5aad90a8b95f4c748a163089b4f8e8e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ac97969c33f185208c7a893e6a5469c') in 0.048173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/21.png
+  artifactKey: Guid(614e8c6d457531f4a8fdc7c3921a437b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/21.png using Guid(614e8c6d457531f4a8fdc7c3921a437b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fbb30b2c5b7f68bcf95d25d27b94004c') in 0.057951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/27c.png
+  artifactKey: Guid(b4abbacb5e8db754dafabda473392001) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/27c.png using Guid(b4abbacb5e8db754dafabda473392001) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '306b4a6c33d08de7123c7fff93a097d6') in 0.059142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/20.png
+  artifactKey: Guid(aa1b6e48e89169e4785ea05e41eb4811) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/20.png using Guid(aa1b6e48e89169e4785ea05e41eb4811) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53358ee7d11faff476073d312532e1ea') in 0.058752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/14.png
+  artifactKey: Guid(d18e9b99847ac364ca63350c14b75aeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/14.png using Guid(d18e9b99847ac364ca63350c14b75aeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b3251fcd2ffcb2bd4cb64e472889257') in 0.053637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/11.png
+  artifactKey: Guid(d01c2ea2d60f4064999cd6ce40d2a392) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/11.png using Guid(d01c2ea2d60f4064999cd6ce40d2a392) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0fda9c936819490bd33a4705a53aaef1') in 0.100662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px All.png
+  artifactKey: Guid(31d220e180968834b954c5de6db7cf49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px All.png using Guid(31d220e180968834b954c5de6db7cf49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1b7122171126fce8f948b4e340cc1359') in 0.115589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/04.png
+  artifactKey: Guid(d95c5491dba045d4fbea76d6223000b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/04.png using Guid(d95c5491dba045d4fbea76d6223000b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ed84b0f5dec9e89e22f00bcec1a11d1a') in 0.059722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px All.png
+  artifactKey: Guid(2aa50bb814a9a8d4fa03c165000ff940) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px All.png using Guid(2aa50bb814a9a8d4fa03c165000ff940) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d24c6eeab0284d38bbd8de1393c862a') in 0.072995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/33.png
+  artifactKey: Guid(0ed635945ec06404c93d5c88e6910182) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/33.png using Guid(0ed635945ec06404c93d5c88e6910182) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '358665541f2100bb8ead994d9961d1aa') in 0.108859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/14.png
+  artifactKey: Guid(c2b50d4c43d18a44c883cc4829c1b5ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/14.png using Guid(c2b50d4c43d18a44c883cc4829c1b5ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '497eb60047a8524891a93e6f510a34ef') in 0.076125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/29.png
+  artifactKey: Guid(afdf88a103456e64692db68b99d546ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/29.png using Guid(afdf88a103456e64692db68b99d546ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '075b703f49716e228c3b90f315b864dd') in 0.072515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/02.png
+  artifactKey: Guid(1620d1dfd9a74d24d8e670e7a7fb2f2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/02.png using Guid(1620d1dfd9a74d24d8e670e7a7fb2f2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '34014abbd796c3fc84f9c1c5b91de4ae') in 0.054876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/10a.png
+  artifactKey: Guid(a6d31e17314bd444daa17278d6c0a23e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/10a.png using Guid(a6d31e17314bd444daa17278d6c0a23e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96d28a7c347f4b3773625875f98261fa') in 0.046738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/27b.png
+  artifactKey: Guid(cd6e1fd0c5cf225448ba4ef4fea57667) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/27b.png using Guid(cd6e1fd0c5cf225448ba4ef4fea57667) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab80faf7d736498b376fe5070f1b7279') in 0.065774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/40.png
+  artifactKey: Guid(6ed4874677c41db4bb72caa225c4ff6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/40.png using Guid(6ed4874677c41db4bb72caa225c4ff6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '978c88fc787bb6e836ae2020acc7da2b') in 0.041810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/06.png
+  artifactKey: Guid(2777fb09a3110644f95ddcbbe19d1141) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/06.png using Guid(2777fb09a3110644f95ddcbbe19d1141) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '67f45d48455e293fa7d1d29f109fc68d') in 0.048028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/28.png
+  artifactKey: Guid(31c18af2d6ce08f4b85e068454653fff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/28.png using Guid(31c18af2d6ce08f4b85e068454653fff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a823d85cc5f25ce99a65f488ce19f9f') in 0.052523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scripts/CameraController.cs
+  artifactKey: Guid(b8626ae9c2d66c646b17535facab1b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CameraController.cs using Guid(b8626ae9c2d66c646b17535facab1b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1503f347f4dc56d2cba2ae26b2bb4906') in 0.008472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/13.png
+  artifactKey: Guid(8e67cc3dc5d34b34db78b8f06e6c0717) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/13.png using Guid(8e67cc3dc5d34b34db78b8f06e6c0717) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0bfdd0e4ff0ca839d9955d9abefee17d') in 0.178989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/35.png
+  artifactKey: Guid(2216a8018c49a0c4c8f070dd79e6d8bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/35.png using Guid(2216a8018c49a0c4c8f070dd79e6d8bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd94dbe658fc1f5ff09a6274f247323ca') in 0.075149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/30.png
+  artifactKey: Guid(9a400da5c565d82488ebb043b57aeb14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/30.png using Guid(9a400da5c565d82488ebb043b57aeb14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '63aad0ffcfec13eb7d63309add1ef6a2') in 0.094651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Sword.png
+  artifactKey: Guid(ddd10825923f2c24d8cbfd5cbc7ace40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Sword.png using Guid(ddd10825923f2c24d8cbfd5cbc7ace40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0a522de7c18d2959c0fac37bfc0b851') in 0.048971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/0px All (sloppy).png
+  artifactKey: Guid(4cf740b989ca85d4ab17ce58045307aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/0px All (sloppy).png using Guid(4cf740b989ca85d4ab17ce58045307aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '33aac98c2d5d6f0c3d5652212c493b7e') in 0.169229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(ff5a337589497544b8a6efd99a684539) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(ff5a337589497544b8a6efd99a684539) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b89a742e95a072f13ae55b746189585') in 0.011701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Prefabs/Coin.prefab
+  artifactKey: Guid(0d690b8006c15154bad117e251135230) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Coin.prefab using Guid(0d690b8006c15154bad117e251135230) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5a44a60ce571b9e19698113cd50b4f5e') in 0.060154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/09.png
+  artifactKey: Guid(2b53422dd420cff4aa72e65a5024af63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/09.png using Guid(2b53422dd420cff4aa72e65a5024af63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8f682816f038d909c3b020595980084') in 0.082780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/No Overlap/0px.png
+  artifactKey: Guid(f443545130963e441a211979f438c973) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/No Overlap/0px.png using Guid(f443545130963e441a211979f438c973) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca57f290294bc58e1aee8ffdacd46126') in 0.121358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/06.png
+  artifactKey: Guid(7b4c6c2ee743f734da92715ca71e64de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/06.png using Guid(7b4c6c2ee743f734da92715ca71e64de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2d1a8011cc4c2b331e342eff07823bd') in 0.052595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/07.png
+  artifactKey: Guid(93f59a332bfa70648b8cf513642d21a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/07.png using Guid(93f59a332bfa70648b8cf513642d21a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ceec867503d321df497408d7b388d16a') in 0.098034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/22.png
+  artifactKey: Guid(4dd4428a8e5cca3488a6e4c42e11db7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/22.png using Guid(4dd4428a8e5cca3488a6e4c42e11db7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf712954747bc8e062ad7e726cbd2b65') in 0.050710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/14.png
+  artifactKey: Guid(1bf3a93359d8bd846bdd87b758d64e39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/14.png using Guid(1bf3a93359d8bd846bdd87b758d64e39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '373cd7246e26ba6618fd41508b503ca1') in 0.061969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/16.png
+  artifactKey: Guid(704c486b7d6982f4d9b78f1d3472d4f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/16.png using Guid(704c486b7d6982f4d9b78f1d3472d4f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d400bdac831a847d4805394a91650e3') in 0.040565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/40.png
+  artifactKey: Guid(45fdd4d789fdafc4ca7dc00d89b2f85e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/40.png using Guid(45fdd4d789fdafc4ca7dc00d89b2f85e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a971164e2c8fa62f3732ce66757b207f') in 0.064978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/27a.png
+  artifactKey: Guid(7d6e3df3e18b30645bb39267ef362a7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/27a.png using Guid(7d6e3df3e18b30645bb39267ef362a7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91da1e2b0e4f0be273357040f003bd68') in 0.075850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/37.png
+  artifactKey: Guid(900895074c2c2f847be7609649b5a78a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/37.png using Guid(900895074c2c2f847be7609649b5a78a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2534917a0166fbcab2109abb435efa5c') in 0.051600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/35.png
+  artifactKey: Guid(91f62d25d8a50074aa437e16dddb056d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/35.png using Guid(91f62d25d8a50074aa437e16dddb056d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4529adf013a78d0e439b9b833a74d2d') in 0.046966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/Extra or Unfinished 3.png
+  artifactKey: Guid(a792b21c5cf5fe247896b98807982fee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/Extra or Unfinished 3.png using Guid(a792b21c5cf5fe247896b98807982fee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '01a8aaad9502cfa3492d281b7841b153') in 0.056965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/15.png
+  artifactKey: Guid(fcb60de6e0753444b8d534fe145c1894) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/15.png using Guid(fcb60de6e0753444b8d534fe145c1894) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e109977a245b776e359e68e16bce1f06') in 0.046399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/31.png
+  artifactKey: Guid(74bb343429ea2cc4b83e564920ea104b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/31.png using Guid(74bb343429ea2cc4b83e564920ea104b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'afab19b4a345adaea5cc79ee228960ce') in 0.069438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/01.png
+  artifactKey: Guid(75490ab755a2c1b45845e6e3aa2347b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/01.png using Guid(75490ab755a2c1b45845e6e3aa2347b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8d20bb051f8c763418b6e82be8d75078') in 0.057400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/04.png
+  artifactKey: Guid(bf73fb1550f5c7a49bc79816512fe396) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/04.png using Guid(bf73fb1550f5c7a49bc79816512fe396) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9abf82861dfd89f605d8625e641a7b28') in 0.054435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/05.png
+  artifactKey: Guid(9b7107e3e7d572c48915914a2f990f6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/05.png using Guid(9b7107e3e7d572c48915914a2f990f6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c048c4bcf4ce26e4774d645e005ec8c6') in 0.063293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/14.png
+  artifactKey: Guid(bc7023619a3009e4282f7c86dc80393d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/14.png using Guid(bc7023619a3009e4282f7c86dc80393d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e96bd0f6d6f3d8194db6365ddf3b5c5') in 0.105217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/13.png
+  artifactKey: Guid(380c2f64549f7bf4b9b59659c4afa4fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/13.png using Guid(380c2f64549f7bf4b9b59659c4afa4fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a92e3c6daeea80616e0edd4f9c23fa9') in 0.067005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/28.png
+  artifactKey: Guid(b196f27fb28e1144eb0fe4aa793a4bac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/28.png using Guid(b196f27fb28e1144eb0fe4aa793a4bac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57a178f7d8e58f4bc94e51a0a5717744') in 0.086911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/23.png
+  artifactKey: Guid(340d7b875780dde4fb998cd92c9be1b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/23.png using Guid(340d7b875780dde4fb998cd92c9be1b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eeb870fc014fa4ae083912ce7102b3b3') in 0.053499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/33.png
+  artifactKey: Guid(5642f5b795d7e7348944a213cda0f02a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/33.png using Guid(5642f5b795d7e7348944a213cda0f02a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '699b759a77efc74c6d40acd0b11a2df7') in 0.089577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/30.png
+  artifactKey: Guid(878147ae33e60eb4399273ae83d062e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/30.png using Guid(878147ae33e60eb4399273ae83d062e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8e8022821458032745bbcb38aa3ada0') in 0.043053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/19.png
+  artifactKey: Guid(75c0f16d421ee8d4890dd00c92b81daa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/19.png using Guid(75c0f16d421ee8d4890dd00c92b81daa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c23948ac511efca75bc7b9bd620a51a9') in 0.026828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/34.png
+  artifactKey: Guid(0b33f0ba02945554fa22f93e2bb9a46f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/34.png using Guid(0b33f0ba02945554fa22f93e2bb9a46f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0048ae81527f70dff36efc213901d97e') in 0.028030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/37.png
+  artifactKey: Guid(6c5082d6452f875438301eae43f512d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/37.png using Guid(6c5082d6452f875438301eae43f512d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd7880c87fab70e467b42cb37793a391') in 0.052566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/14.png
+  artifactKey: Guid(ae1de0c7c140c624b9ddb1ec32ef0abe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/14.png using Guid(ae1de0c7c140c624b9ddb1ec32ef0abe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0a85384c933469b5f2d842d538a9e9ad') in 0.078867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/06.png
+  artifactKey: Guid(da68fddf429d8d24fbb9a492a377ab24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/06.png using Guid(da68fddf429d8d24fbb9a492a377ab24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1b5512bb11a1fce184b329e02dabd1f5') in 0.056243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/35.png
+  artifactKey: Guid(f91d7ade639137349b697a704c068c79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/35.png using Guid(f91d7ade639137349b697a704c068c79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40b1363574e7e104cde6386576cb28ac') in 0.048230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/01.png
+  artifactKey: Guid(15d8ba1d11ed8c941b9676432344c5c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/01.png using Guid(15d8ba1d11ed8c941b9676432344c5c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52b94ae553dda08072556bc289a0eeca') in 0.074638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/04.png
+  artifactKey: Guid(44a6ab0c3d74f5d4da55122c202c09fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/04.png using Guid(44a6ab0c3d74f5d4da55122c202c09fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7bd9dd9c9a9d5e54988078288edf3086') in 0.097175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/19.png
+  artifactKey: Guid(6abee59445a4f9e408710dbb63127f24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/19.png using Guid(6abee59445a4f9e408710dbb63127f24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6c8b462ec429b47bf64d751481037d4') in 0.095357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/17.png
+  artifactKey: Guid(594813b2c834f3042905845b927ed543) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/17.png using Guid(594813b2c834f3042905845b927ed543) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a3b466072138ce74251c13a4385ecb16') in 0.101424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/22.png
+  artifactKey: Guid(e1859d9a0e589114aaceade109adfe39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/22.png using Guid(e1859d9a0e589114aaceade109adfe39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ebeeb28dcd0f9f23f85785f84d2b4b5') in 0.064165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/21.png
+  artifactKey: Guid(ac9be71190dd43a4d965ca5bf53c2a1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/21.png using Guid(ac9be71190dd43a4d965ca5bf53c2a1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '999e58753366c3a51acefbfc0b84f0e4') in 0.090932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/36.png
+  artifactKey: Guid(4468909bcab71f643acfd615f4cc9abb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/36.png using Guid(4468909bcab71f643acfd615f4cc9abb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a4c971005345a27b559d53f5416215a5') in 0.045131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/02.png
+  artifactKey: Guid(3bb1c545067e47247acca303f3cbb928) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/02.png using Guid(3bb1c545067e47247acca303f3cbb928) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '73ac5338c77bb5ca5ad980df6f37c6dc') in 0.079342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/No Overlap/2px.png
+  artifactKey: Guid(1fb998996d40efb49b92370699ae9316) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/No Overlap/2px.png using Guid(1fb998996d40efb49b92370699ae9316) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42c8e7ca5dc2eb28da989c38b246de3a') in 0.170994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/29.png
+  artifactKey: Guid(df955df37cf241a4c97295d80e7d51c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/29.png using Guid(df955df37cf241a4c97295d80e7d51c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '818f8f03e3be2c565182e48787ac0ccf') in 0.072589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/32.png
+  artifactKey: Guid(22c54137fb0c64f4aa1502878cc71515) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/32.png using Guid(22c54137fb0c64f4aa1502878cc71515) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8784bebd1a0587e49b3ca3084098d7fd') in 0.033621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/12.png
+  artifactKey: Guid(051dcdd64a407604b95a4b82fec82677) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/12.png using Guid(051dcdd64a407604b95a4b82fec82677) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e5475892e4546381cd779c7d011a5ceb') in 0.044534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/07.png
+  artifactKey: Guid(5c106446b350e9940b714a3d78dd4caa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/07.png using Guid(5c106446b350e9940b714a3d78dd4caa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '106a8b53844bffb47f7b13fa48d4fe6c') in 0.050255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/08.png
+  artifactKey: Guid(2befd10b7092d4b46a171d9c7b4ee33a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/08.png using Guid(2befd10b7092d4b46a171d9c7b4ee33a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ea14e01056994b1f4b22643c62f655a') in 0.067656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/13.png
+  artifactKey: Guid(d6bd1ef984814d64bb67c0dad1f19ce9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/13.png using Guid(d6bd1ef984814d64bb67c0dad1f19ce9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fb03f3f82a04cbb7176e41702ad0fdf0') in 0.031635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/31.png
+  artifactKey: Guid(039b22bb3479d114d9ba57a4d3551b63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/31.png using Guid(039b22bb3479d114d9ba57a4d3551b63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57f8983950a391b7fd51af52e4484ead') in 0.054820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/16.png
+  artifactKey: Guid(0dfc93c9deecc744290ffaafe25d8a6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/16.png using Guid(0dfc93c9deecc744290ffaafe25d8a6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b08ac35772e9d09b86ff219a9dd2b7b') in 0.048245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/33.png
+  artifactKey: Guid(471d235f50e65df42b408b34940f1a1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/33.png using Guid(471d235f50e65df42b408b34940f1a1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7281af37f653bd9332f064f581133be8') in 0.038871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/24.png
+  artifactKey: Guid(61cbfb970e84df54cb6f633864007155) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/24.png using Guid(61cbfb970e84df54cb6f633864007155) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ea8bbd0a6b78017d33efd1b2bcff6d5') in 0.072828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/02.png
+  artifactKey: Guid(79d58a4f954ed764d9b92a416038c3bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/02.png using Guid(79d58a4f954ed764d9b92a416038c3bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8caa60f9be1f3343d521a5d7139fa71d') in 0.068302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/32.png
+  artifactKey: Guid(d9efca313c9e479498844bf7c28d86dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/32.png using Guid(d9efca313c9e479498844bf7c28d86dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '04a9c2ebcb68dc3837ff381a121d1241') in 0.042750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/22.png
+  artifactKey: Guid(b4644c1a1cde8ca458eda504d5bb0769) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/22.png using Guid(b4644c1a1cde8ca458eda504d5bb0769) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a331ce4c540b91fb247cf8a9c1dacb7a') in 0.055572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/35.png
+  artifactKey: Guid(7828206476d39f14582e8be36dc2ed93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/35.png using Guid(7828206476d39f14582e8be36dc2ed93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce014365cea7a0208e99b38d83a0b7c6') in 0.083794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/23.png
+  artifactKey: Guid(84f0fd2b7558ec74185f3b80f3471094) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/23.png using Guid(84f0fd2b7558ec74185f3b80f3471094) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae478ba5cf219229565e87fe418a4c1b') in 0.054173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/05.png
+  artifactKey: Guid(6033966a8dd5cd84280ea32283b143e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/05.png using Guid(6033966a8dd5cd84280ea32283b143e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9475d9cc86ace166568035af47d001cf') in 0.036890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/10.png
+  artifactKey: Guid(6c5d36addcd950d48b2e275b8ef4a8b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/10.png using Guid(6c5d36addcd950d48b2e275b8ef4a8b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b33cc41767909ee221551b03a177ebe') in 0.128527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/13.png
+  artifactKey: Guid(e28a889948e48e04695fcd5d4f96d4bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/13.png using Guid(e28a889948e48e04695fcd5d4f96d4bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6ebb1a835f46ff851c583cd00962832d') in 0.087842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/22.png
+  artifactKey: Guid(ab17c7c215765964d915344fab3f163a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/22.png using Guid(ab17c7c215765964d915344fab3f163a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce392bb1a5aa2927df6c4ed119e735ea') in 0.044521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/12.png
+  artifactKey: Guid(1917e96d46925584fa740f3f35bd6d56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/12.png using Guid(1917e96d46925584fa740f3f35bd6d56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56f337d07f75abcb5580180d1c4a6c35') in 0.075836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/24.png
+  artifactKey: Guid(fb1767c3419d08440ad3554a6967b480) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/24.png using Guid(fb1767c3419d08440ad3554a6967b480) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b62109f68d3010f6cde4edb35ae6f7e4') in 0.154307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/35.png
+  artifactKey: Guid(e1eaedc95badede469fadbc74dca6303) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/35.png using Guid(e1eaedc95badede469fadbc74dca6303) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17cd7f4e19532399255b6bdbf59386a7') in 0.055276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/01.png
+  artifactKey: Guid(d7790dee1bf2f284da0a336047e43110) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/01.png using Guid(d7790dee1bf2f284da0a336047e43110) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd850510d709e0ac0277af82f443ba361') in 0.053882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/31.png
+  artifactKey: Guid(2968afe8842acd240ad18cf43c377627) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/31.png using Guid(2968afe8842acd240ad18cf43c377627) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc4f823794f4bfd25efbc539b5120d6d') in 0.080247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/No Overlap/2px.png
+  artifactKey: Guid(663c85a54926455468c3b29e843e29aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/No Overlap/2px.png using Guid(663c85a54926455468c3b29e843e29aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '37fc875c9394ec21b9b83b75cd8c885c') in 0.048303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/02.png
+  artifactKey: Guid(d27112350e843644297ba78437c054aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/02.png using Guid(d27112350e843644297ba78437c054aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ebd83582dab37f86da50e785cfd5ba96') in 0.051974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/09.png
+  artifactKey: Guid(bb5464429b4d2e2468cff101d4114d66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/09.png using Guid(bb5464429b4d2e2468cff101d4114d66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d41f1c770c4220eb23eb198d96c3009') in 0.049244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/13.png
+  artifactKey: Guid(11be5dbe8c20c1746acf5ca521c67ef6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/13.png using Guid(11be5dbe8c20c1746acf5ca521c67ef6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '991163a145d502f030b5615934f3ad93') in 0.069666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/06.png
+  artifactKey: Guid(591b6f5f449bb4e4d992730d59b269f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/06.png using Guid(591b6f5f449bb4e4d992730d59b269f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd2b9558e0d8f7d5cc943597bfedbecf') in 0.045519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/11.png
+  artifactKey: Guid(35f2ecc8f87cc1f429eff70a9b450a86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/11.png using Guid(35f2ecc8f87cc1f429eff70a9b450a86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '113634cb40cd525ab841fb83e6fe74dd') in 0.102095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/33.png
+  artifactKey: Guid(8ed39a8ae1028d347874c6a4adb4e8c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/33.png using Guid(8ed39a8ae1028d347874c6a4adb4e8c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b7b3583cc560d1fcf2de0a45323a863') in 0.054832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/16.png
+  artifactKey: Guid(7cddb5fb40a9f9f47b731b8463d55662) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/16.png using Guid(7cddb5fb40a9f9f47b731b8463d55662) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c647fb322a1282a92f7d1c1119e14891') in 0.038175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/23.png
+  artifactKey: Guid(248c2c2a3eb353b45af2a33970530300) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/23.png using Guid(248c2c2a3eb353b45af2a33970530300) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4772bb9ef5cbd91d9ee7dbcba258e8b') in 0.069467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/25.png
+  artifactKey: Guid(3dff304d6755df74784744e5a2dd60c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/25.png using Guid(3dff304d6755df74784744e5a2dd60c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ff5c4764b501642c3e5abf6d987edd4') in 0.093139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/29.png
+  artifactKey: Guid(e59004aa144f69a4390dbea7773a8371) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/29.png using Guid(e59004aa144f69a4390dbea7773a8371) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '638a68310b0f3c685e3c31aabb0273f2') in 0.054106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/15.png
+  artifactKey: Guid(88fa010e2ab748948a24c1c27f4747ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/15.png using Guid(88fa010e2ab748948a24c1c27f4747ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '790063e3d3d5fa6ec0a274ee2765d84a') in 0.066374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/27c.png
+  artifactKey: Guid(458bebfbcc5dd4b479ec77cb209617e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/27c.png using Guid(458bebfbcc5dd4b479ec77cb209617e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '614de4670768a2cfd1ea3f00271b4663') in 0.072475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/05.png
+  artifactKey: Guid(aae54c091f51bfc44a86849736190acd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/05.png using Guid(aae54c091f51bfc44a86849736190acd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa65f659470d9e8be384c8815d73cd43') in 0.063576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/02.png
+  artifactKey: Guid(5c2f5ffd041d506438f83293f784747d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/02.png using Guid(5c2f5ffd041d506438f83293f784747d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9c0b113391cb2d235be13ff98873790') in 0.094879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/31.png
+  artifactKey: Guid(6378bd33def3ad74f915064c43afcae2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/31.png using Guid(6378bd33def3ad74f915064c43afcae2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '753e1c14caf0628db2d0a41a85398cd0') in 0.075786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/36.png
+  artifactKey: Guid(126c903b2a7b69c44a037012eea3ef53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/36.png using Guid(126c903b2a7b69c44a037012eea3ef53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0073d2af82f6c36ce77bfc9198fbe0ca') in 0.077333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/27.png
+  artifactKey: Guid(e0abeae42fcc8b740b61974674bc78a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/27.png using Guid(e0abeae42fcc8b740b61974674bc78a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '359341b83fd311a92b8944e4cc1ae6a0') in 0.060252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/22.png
+  artifactKey: Guid(c76ea7e6dcbbb0447bd26595150c3498) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/22.png using Guid(c76ea7e6dcbbb0447bd26595150c3498) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9fbaf89bbbc16fec9150c8567a0e37ec') in 0.089145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/12.png
+  artifactKey: Guid(dce97e29b1bb190449107eb93e7c40d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/12.png using Guid(dce97e29b1bb190449107eb93e7c40d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec0eb80431093a149adc172cc20aab12') in 0.068885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/25.png
+  artifactKey: Guid(7ad714e8939866c41974bcf5fdaf5e0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/25.png using Guid(7ad714e8939866c41974bcf5fdaf5e0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a20d401be6d69d0998f702151514aa37') in 0.047209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/35.png
+  artifactKey: Guid(8100a85dfd84e684db0b6b819f6e180b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/35.png using Guid(8100a85dfd84e684db0b6b819f6e180b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b005cedea997b7e72d9a9d1e0b30739') in 0.069183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/36.png
+  artifactKey: Guid(9a330702da06e704a94ccbf0ea9d7fdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/36.png using Guid(9a330702da06e704a94ccbf0ea9d7fdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '259ec8eeac352fca9117b44040cd479a') in 0.092815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/31.png
+  artifactKey: Guid(792a63c0d0fbcb040bead848dfed6f50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/31.png using Guid(792a63c0d0fbcb040bead848dfed6f50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7874a4af2332c8d3c32e89cab0b80a31') in 0.049164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/30.png
+  artifactKey: Guid(c1dee18108eb67b4fa050932732a206a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/30.png using Guid(c1dee18108eb67b4fa050932732a206a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef4c80b71ad2cf85787c929eb44a8b8b') in 0.061902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/34.png
+  artifactKey: Guid(a5e15cd759f26314991e5fd1380f5565) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/34.png using Guid(a5e15cd759f26314991e5fd1380f5565) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '081ba0724f4871a75a44fb04099b08b9') in 0.044139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/11.png
+  artifactKey: Guid(894c2e8eb69928141968fbbda697e3f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/11.png using Guid(894c2e8eb69928141968fbbda697e3f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40945068ae8c90954de4cfb3ecb20574') in 0.047988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/29.png
+  artifactKey: Guid(9e47b6d3ae931e843b2fa9c930cc0205) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/29.png using Guid(9e47b6d3ae931e843b2fa9c930cc0205) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf30d75805535578346f66ef9fb949c3') in 0.060629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/1px/04.png
+  artifactKey: Guid(f50433ef6c2eb56498d398e41db4cd68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/1px/04.png using Guid(f50433ef6c2eb56498d398e41db4cd68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff8a3c2f6e5c3a216137aedc25ec5fcc') in 0.094502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/1px/14.png
+  artifactKey: Guid(5f223d44ea653504683ff8d6021df9f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/1px/14.png using Guid(5f223d44ea653504683ff8d6021df9f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '68993b099686a1ffd0c87fdf8f6d6c3e') in 0.049952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/13.png
+  artifactKey: Guid(a1545365ec38cfb43a8dce5059a07721) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/13.png using Guid(a1545365ec38cfb43a8dce5059a07721) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b065c50dadbb899acf7ce6f4792e1e5b') in 0.061240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/36.png
+  artifactKey: Guid(b0ca888caafbb354c9ba3d428811040a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/36.png using Guid(b0ca888caafbb354c9ba3d428811040a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0388187dde68713f8aa337759e06ca0a') in 0.050464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Demo.unity
+  artifactKey: Guid(09fe4f6b019343145ac23714c96469c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Demo.unity using Guid(09fe4f6b019343145ac23714c96469c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1419b756bf1ec68578e69500e3e7af2') in 0.008713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/27b.png
+  artifactKey: Guid(a886dd6a761b7294caaf7a1ed8247105) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/27b.png using Guid(a886dd6a761b7294caaf7a1ed8247105) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '99e43ec2abc710dd2f09bda6f1b11b0b') in 0.049585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/08.png
+  artifactKey: Guid(beb419bf89159374aa609b32827d3fca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/08.png using Guid(beb419bf89159374aa609b32827d3fca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da4894439c2a0f4d1b91a307fa46c2cc') in 0.051045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/2px/14.png
+  artifactKey: Guid(71c73b1eac076d84ba7f507b7b1afe73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/2px/14.png using Guid(71c73b1eac076d84ba7f507b7b1afe73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c8c0ac6ad07f62ed04cf62bae672663e') in 0.102589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/2px/04.png
+  artifactKey: Guid(9ddb974047e27c44eac1e124f13c5498) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/2px/04.png using Guid(9ddb974047e27c44eac1e124f13c5498) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '95b7c946adcba1d145391bc5e65b101b') in 0.080866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/No Overlap/2px.png
+  artifactKey: Guid(df5f1d19650546347b71ffe8170816a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/No Overlap/2px.png using Guid(df5f1d19650546347b71ffe8170816a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '61bba49f58896d7f44f1818d9b5c274f') in 0.072728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/File Numbers.png
+  artifactKey: Guid(70132b54b421a524fb7c6ef674f2c40f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/File Numbers.png using Guid(70132b54b421a524fb7c6ef674f2c40f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7bbdc48ba388f8a3d6c39c147154dee2') in 0.114311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/2px/18.png
+  artifactKey: Guid(52f8dce5c567f0a418ce903bcbc11f19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/2px/18.png using Guid(52f8dce5c567f0a418ce903bcbc11f19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40ab3b752ade64625d8f9eeb098ccd6b') in 0.033639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Imports/Platformer/ReadMe/Scripts/ReadmeBE2.cs
+  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Platformer/ReadMe/Scripts/ReadmeBE2.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a86f9d8a61bfa51c9a7ff7ee02a6a52a') in 0.033896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/27.png
+  artifactKey: Guid(343c2dbb0d43bdb4391491cd1b396eaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/27.png using Guid(343c2dbb0d43bdb4391491cd1b396eaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '684635396672243a9ba8db07f94be2ef') in 0.063926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/39.png
+  artifactKey: Guid(52015bf983af0bc43b0cb509386b3e83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/39.png using Guid(52015bf983af0bc43b0cb509386b3e83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e8c42881b88adacfc9b37c153faaaf1') in 0.351481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/2px/07.png
+  artifactKey: Guid(e6ff082c58fc4a946a246d9e62890622) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/2px/07.png using Guid(e6ff082c58fc4a946a246d9e62890622) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1aa13455d7364044ac35ef793a2f16a0') in 0.088469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/26.png
+  artifactKey: Guid(c5083240038e0424c83be4fdabbacc94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/26.png using Guid(c5083240038e0424c83be4fdabbacc94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f68649f938dc4007147eeea6db91c753') in 0.038160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/04.png
+  artifactKey: Guid(5b809dc7fda992148b2b1751f0772d01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/04.png using Guid(5b809dc7fda992148b2b1751f0772d01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b31ecc897e4bd1ed0eaad8b7fb8e7a3c') in 0.047526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/File Numbers.png
+  artifactKey: Guid(0f80d21401670bc4699968e0b4e297e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/File Numbers.png using Guid(0f80d21401670bc4699968e0b4e297e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f728f2d246b7540274c2a3204114899') in 0.177173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/15.png
+  artifactKey: Guid(12a269483dec11d4bbc41074512ca447) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/15.png using Guid(12a269483dec11d4bbc41074512ca447) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f53ada6c977cfa69d5192cccefbb10d1') in 0.045921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/2px/19.png
+  artifactKey: Guid(5d5055ced8b283a4d9ab66df66de6a33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/2px/19.png using Guid(5d5055ced8b283a4d9ab66df66de6a33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad1370e29c4f7e1548e8c4bba3da7448') in 0.068965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/1px/20.png
+  artifactKey: Guid(89f824ee65146fd48b47070ae04d14cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/1px/20.png using Guid(89f824ee65146fd48b47070ae04d14cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93b8d32577e4ae0a26f88da8ab755cdf') in 0.082628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/1px/17.png
+  artifactKey: Guid(3d26177e52fe68040afe717f1036cd3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/1px/17.png using Guid(3d26177e52fe68040afe717f1036cd3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f2fe5204bc1b2057bf591c668b6f3e2') in 0.050919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/1px/06.png
+  artifactKey: Guid(4b5e06f2b5d174947be640c07a1caf47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/1px/06.png using Guid(4b5e06f2b5d174947be640c07a1caf47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '32bcc558cccb511b188f12cd9a5707a6') in 0.044546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/1px/10.png
+  artifactKey: Guid(bfd57a8dba4d66c4cada18ff677cb3ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/1px/10.png using Guid(bfd57a8dba4d66c4cada18ff677cb3ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6fd68ba48067ee7140a848c201c89b08') in 0.089418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/12.png
+  artifactKey: Guid(10ce2edd0676f2f44abd61e58b6d453d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/12.png using Guid(10ce2edd0676f2f44abd61e58b6d453d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5082840165b24fc1559d784393150490') in 0.056531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/Extra or Unfinished.png
+  artifactKey: Guid(af003e79f2f8bb24a85c2c7b812ab04b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/Extra or Unfinished.png using Guid(af003e79f2f8bb24a85c2c7b812ab04b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e7d184fcfe5a43950163f47781e637af') in 0.029312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/10.png
+  artifactKey: Guid(79fde72ed60dce94c986c47613d40509) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/10.png using Guid(79fde72ed60dce94c986c47613d40509) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4d9b508dc129071b05a8df637bb8f51d') in 0.061197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/38.png
+  artifactKey: Guid(041e6871a5d5b4f469c49f3ed3bcd1de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/38.png using Guid(041e6871a5d5b4f469c49f3ed3bcd1de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93f26663e4d630188ddccea426eed95c') in 0.042439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/39.png
+  artifactKey: Guid(79f0960181606c546a81ee787c45d97c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/39.png using Guid(79f0960181606c546a81ee787c45d97c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '828a0749e0803c10f95d239dae70e94c') in 0.071164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/19.png
+  artifactKey: Guid(cf279d1aeef8f5849a60e4a10e67539a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/19.png using Guid(cf279d1aeef8f5849a60e4a10e67539a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '88bbc3ae5393a24e8ecb99a5b9c1ab07') in 0.068700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scripts/PlayerAdditional.cs
+  artifactKey: Guid(b050917831009ef44ae37303a5dc5c16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/PlayerAdditional.cs using Guid(b050917831009ef44ae37303a5dc5c16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e41e622ed0b93bf5ece6579d3dbd1e7') in 0.011325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/35.png
+  artifactKey: Guid(55e8bd289a0e6864c93df8e64f7e2269) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/35.png using Guid(55e8bd289a0e6864c93df8e64f7e2269) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b4aba6c06bcce2426f4984c7f0f2288') in 0.054985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/1px/18.png
+  artifactKey: Guid(eaa73f132bb593946bf1b358287758c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/1px/18.png using Guid(eaa73f132bb593946bf1b358287758c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '428053e99c84b577256a1181f4cf8b32') in 0.041164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/1px All.png
+  artifactKey: Guid(c34acae8597b9e8439de21e547a364b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/1px All.png using Guid(c34acae8597b9e8439de21e547a364b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '588d3b2498164e729ebb904efd2e7216') in 0.181514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/34.png
+  artifactKey: Guid(70a496674a204c64da9ae1e0feeaed5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/1px/34.png using Guid(70a496674a204c64da9ae1e0feeaed5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc56c7b155dd400ad443a468e9e3d24b') in 0.047346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/10a.png
+  artifactKey: Guid(ed9a86ae3a8583441a062f5e61707d52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/10a.png using Guid(ed9a86ae3a8583441a062f5e61707d52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '484b97b60b2a7e13b544ff5aa23d5394') in 0.045292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/34.png
+  artifactKey: Guid(10b02f5f321158f42bbc854fb727c9c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/34.png using Guid(10b02f5f321158f42bbc854fb727c9c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c669fc2de86204120f2954ab2069046') in 0.095584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/08.png
+  artifactKey: Guid(68de97b73138ce84396af9d6aa8be066) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/08.png using Guid(68de97b73138ce84396af9d6aa8be066) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a74c9d9ba40bf5a1d036a8a40660169') in 0.063026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Platforms.png
+  artifactKey: Guid(e85c6e02fda4a004b84664f435ad4d73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Platforms.png using Guid(e85c6e02fda4a004b84664f435ad4d73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ac7ff551b4092a729af4c18a9ba5188c') in 0.107282 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006171 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\2D v1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\2D v1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.370 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1371ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1043ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (301ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (474ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (303ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4441 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (249.0 KB). Loaded Objects now: 4931.
+Memory consumption went from 166.9 MB to 166.7 MB.
+Total: 5.072800 ms (FindLiveObjects: 0.445100 ms CreateObjectMapping: 0.129300 ms MarkObjects: 4.279100 ms  DeleteObjects: 0.217800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005305 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\2D v1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\2D v1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.392 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1394ms)
+		BeginReloadAssembly (194ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1054ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (338ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (468ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (298ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4441 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (241.3 KB). Loaded Objects now: 4934.
+Memory consumption went from 166.9 MB to 166.7 MB.
+Total: 7.914300 ms (FindLiveObjects: 0.403700 ms CreateObjectMapping: 0.154200 ms MarkObjects: 6.966700 ms  DeleteObjects: 0.387600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

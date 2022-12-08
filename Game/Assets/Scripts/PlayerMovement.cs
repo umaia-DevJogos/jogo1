@@ -11,7 +11,10 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private BoxCollider2D boxCollider;
     private float wJumpCooldown;
+    private float vJumpCooldown;
+    [SerializeField] private float vJumpCooldownOut;
     private float horizontalInput;
+    private bool jumped;
 
     // Awake is called every time the script is loaded (EM TESTES!)
     /*
@@ -43,7 +46,6 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = new Vector3(-1, 1, 1);
             //transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
         }
-
         // WallJump (with cooldown)
         if (wJumpCooldown > 0.1f)
         {
@@ -59,7 +61,7 @@ public class PlayerMovement : MonoBehaviour
             }
 
             // Call Jump
-            if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.Space))
+            if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow))
             {
                 Jump();
             }
@@ -68,24 +70,34 @@ public class PlayerMovement : MonoBehaviour
         {
             wJumpCooldown += Time.deltaTime;
         }
+        vJumpCooldown += Time.deltaTime;
     }
 
     private void Jump()
     {
-        if (isGrounded()) // Regular Jump
+        //Jump Logic
+        if ((isGrounded() || (!isGrounded() && jumped)) && vJumpCooldown >= vJumpCooldownOut) // Regular Jump and Double Jump
         {
             rb.velocity = new Vector2(rb.velocity.x, vJumpForce);
-        } else if (!isGrounded() && onWall()) { // Wall Jump
-
+            jumped = !jumped;
+        }
+        else if (!isGrounded() && onWall()) { // Wall Jump
             if (horizontalInput == 0) // Check player is moving (for wall to wall jumps)
             {
-                rb.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * hJumpForce, 0);
+                rb.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * hJumpForce, 0); // Force flip
                 transform.localScale = new Vector3(-Mathf.Sign(transform.localScale.x), transform.localScale.y, transform.localScale.z);
             }
             else {
-                rb.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 3, vJumpForce / 2);
+                rb.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 6, vJumpForce);
+
             }
-            wJumpCooldown = 0;
+            wJumpCooldown = 0f;
+            jumped = !jumped;
+        }
+
+        if (isGrounded() && vJumpCooldown >= vJumpCooldownOut) //reset cooldown
+        {
+            vJumpCooldown = 0f; 
         }
     }
 

@@ -5,22 +5,18 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     [SerializeField] private Transform player;
-    [SerializeField] private float distance;
-    [SerializeField] private float speed;
-    private float finalDistance;
+    [SerializeField] private Vector3 offset;
+    [SerializeField] private float smooth;
 
-    // Start is called before the first frame update
-    void Start()
+    void FixedUpdate()
     {
-        
+        Follow();
     }
 
-    // Update is called once per frame
-    void Update()
+    void Follow()
     {
-        finalDistance = Mathf.Lerp(finalDistance, (distance * player.localScale.x), Time.deltaTime * speed);
-        transform.position = new Vector3(player.position.x + finalDistance, transform.position.y, transform.position.z); // Follow the player on the X axis
-        
-        //Debug.Log(finalDistance);
+        Vector3 playerPosition = player.position + offset;
+        Vector3 smoothPosition = Vector3.Lerp(transform.position, playerPosition, smooth * Time.fixedDeltaTime);
+        transform.position = smoothPosition;
     }
 }
