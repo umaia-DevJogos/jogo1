@@ -31,7 +31,7 @@ public class AIPatrolChase : MonoBehaviour
     void Update()
     {
         cooldown -= Time.deltaTime;
-        Debug.Log(cooldown);
+        //Debug.Log(cooldown);
         if (activeChase)
         {
             //Chase
@@ -39,7 +39,7 @@ public class AIPatrolChase : MonoBehaviour
         }
         else
         {
-            if((Vector2.Distance(transform.position, target.position) < chaseDistance) && cooldown < 0)
+            if((Vector2.Distance(transform.position, target.position) < chaseDistance) && cooldown <= 0)
             {
                 activeChase = true;
             }
