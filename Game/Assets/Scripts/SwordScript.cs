@@ -37,7 +37,15 @@ public class SwordScript : MonoBehaviour
     {
         if (collision.transform.tag == "Enemy" && attackCheck)
         {
-            Destroy(collision.transform.gameObject);
+            if (collision.transform.name == "NPC t1") // Selector based on enemy type
+            {
+                collision.gameObject.GetComponent<AIPatrol>().die();
+            }
+            else if (collision.transform.name == "NPC t2")
+            {
+                collision.gameObject.GetComponent<AIPatrolChase>().die();
+            }
+            //Destroy(collision.transform.gameObject);
         }
     }
 }

@@ -21,6 +21,10 @@ public class AIPatrolChase : MonoBehaviour
     private bool internalChase;
     private float cooldown = 1.5f;
 
+    //Die animation
+    [SerializeField] Animator anim;
+    [SerializeField] ParticleSystem particles;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,22 +36,29 @@ public class AIPatrolChase : MonoBehaviour
     {
         cooldown -= Time.deltaTime;
         //Debug.Log(cooldown);
-        if (activeChase)
+        if (activeChase && target != null)
         {
             //Chase
             chase();
         }
         else
         {
-            if((Vector2.Distance(transform.position, target.position) < chaseDistance) && cooldown <= 0)
+            if (target != null)
             {
-                activeChase = true;
+                if ((Vector2.Distance(transform.position, target.position) < chaseDistance) && cooldown <= 0)
+                {
+                    activeChase = true;
+                }
+                else
+                {
+                    activeChase = false;
+                }
             }
             else
             {
                 activeChase = false;
+                activePatrol = true;
             }
-
             if (activePatrol)
             {
                 patrol();
@@ -67,7 +78,6 @@ public class AIPatrolChase : MonoBehaviour
         }
         rb.velocity = new Vector2(speed * Time.fixedDeltaTime, rb.velocity.y);
     }
-
     void chase()
     {
         if (transform.position.x > target.position.x)
@@ -92,12 +102,9 @@ public class AIPatrolChase : MonoBehaviour
             flip();
             cooldown = 2f;
         }
-
         rb.velocity = new Vector2(speed * Time.fixedDeltaTime, rb.velocity.y);
-
     }
-
-    void flip()
+    void flip() // change enemy scale on X axis and speed to its negative (Stop chase and patrol to prevent bugs)
     {
         internalPatrol = activePatrol;
         internalChase = activeChase;
@@ -109,5 +116,14 @@ public class AIPatrolChase : MonoBehaviour
 
         activePatrol = internalPatrol;
         activeChase = internalChase;
+    }
+    public void die() // Disables collider, plays death animation and destroys enemy
+    {
+        collider.enabled = false;
+        rb.velocity = new Vector2(0, 0); //Stop enemy
+        anim.Play("enemy_die1");
+        particles.Emit(20);
+        Destroy(gameObject, 0.25f);
+        Destroy(particles.transform.parent.gameObject, 1.5f);
     }
 }

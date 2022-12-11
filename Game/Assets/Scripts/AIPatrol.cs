@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AIPatrol : MonoBehaviour
 {
-    private bool active;
+    //Patrol
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private float speed = 100f;
     [SerializeField] private Transform groundCheck;
@@ -12,29 +12,27 @@ public class AIPatrol : MonoBehaviour
     [SerializeField] private LayerMask terrainL;
     [SerializeField] private Collider2D collider;
 
-    // Start is called before the first frame update
-    void Start()
+    //Die animation
+    [SerializeField] Animator anim;
+    [SerializeField] ParticleSystem particles;
+
+    private void Start()
     {
-        active = true;
+        //die();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (active)
-        {
-            patrol();
-        }
+        patrol();
     }
 
     private void FixedUpdate()
     {
-        if (active)
-        {
-            turn = !Physics2D.OverlapCircle(groundCheck.position, 0.1f, terrainL);
-        }
+        turn = !Physics2D.OverlapCircle(groundCheck.position, 0.1f, terrainL);
     }
-    void patrol()
+    void patrol() //Patrol state. Goes from wall to wall or end of platform and turns before the end or when it hits anything on the terrain layer
     {
         if (turn || collider.IsTouchingLayers(terrainL))
         {
@@ -43,11 +41,20 @@ public class AIPatrol : MonoBehaviour
         rb.velocity = new Vector2(speed * Time.fixedDeltaTime, rb.velocity.y);
     }
 
-    void flip()
+    void flip() // change enemy scale on X axis and speed to its negative
     {
-        active = false;
         transform.localScale = new Vector2(transform.localScale.x * -1, transform.localScale.y);
         speed *= -1;
-        active = true;
+    }
+
+    public void die() // Disables collider, plays death animation and destroys enemy
+    {
+        collider.enabled = false;
+        rb.velocity = new Vector2(0,0); //Stop enemy
+        anim.Play("enemy_die1");
+        particles.Emit(20);
+        Destroy(gameObject, 0.25f);
+        Destroy(particles.transform.parent.gameObject, 1.5f);
+        
     }
 }
