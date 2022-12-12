@@ -23,6 +23,9 @@ public class PlayerAdditional : MonoBehaviour
         if (collision.transform.tag == "Enemy")
         {
             Destroy(gameObject);
+        } else if (collision.transform.tag == "Trap")
+        {
+            Destroy(gameObject);
         }
     }
 }
