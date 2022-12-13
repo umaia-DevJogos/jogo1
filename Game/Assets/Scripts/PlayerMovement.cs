@@ -11,7 +11,6 @@ public class PlayerMovement : MonoBehaviour
     private bool onWall;
     [SerializeField] private LayerMask terrainL;
     private Rigidbody2D rb;
-    private BoxCollider2D boxCollider;
     private float wJumpCooldown;
     private float doubleJumpCooldown;
     [SerializeField] private float doubleJumpCooldownOut;
@@ -29,7 +28,6 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>(); //Ir buscar componente RigidBody2D aplicada ao player
-        boxCollider = GetComponent<BoxCollider2D>();
     }
 
     // Update is called once per frame
