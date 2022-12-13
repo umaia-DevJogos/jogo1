@@ -6,24 +6,24 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float speed;
     [SerializeField] private float vJumpForce;
-    [SerializeField] private float hJumpForce; //Em testes
-    [SerializeField] private LayerMask TerrainL;
+    [SerializeField] private float hJumpForce;
+    private bool isGrounded;
+    private bool onWall;
+    [SerializeField] private LayerMask terrainL;
     private Rigidbody2D rb;
     private BoxCollider2D boxCollider;
     private float wJumpCooldown;
-    private float vJumpCooldown;
-    [SerializeField] private float vJumpCooldownOut;
+    private float doubleJumpCooldown;
+    [SerializeField] private float doubleJumpCooldownOut;
     private float horizontalInput;
-    private bool jumped;
-
-    // Awake is called every time the script is loaded (EM TESTES!)
-    /*
-    private void Awake()
-    {
-        rb = GetComponent<Rigidbody2D>(); //Ir buscar componente RigidBody2D aplicada ao player
-        boxCollider = GetComponent<BoxCollider2D>();
-    }
-    */
+    private bool canDoubleJump;
+    //Dash
+    private bool canDash = true;
+    private bool isDashing;
+    [SerializeField] private float dashPower;
+    [SerializeField] private float dashTime;
+    [SerializeField] private float dashCooldown;
+    [SerializeField] private TrailRenderer trail;
 
     // Start is called before the first frame update
     void Start()
@@ -35,6 +35,10 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (isDashing) // Prevents other motion if player is dashing
+        {
+            return;
+        }
         horizontalInput = Input.GetAxis("Horizontal"); //Store horizontal input
 
         // Flip Sprite
@@ -51,7 +55,7 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y); // Move horizontally
 
-            if(onWall() && !isGrounded())
+            if(onWall && !isGrounded)
             {
                 rb.gravityScale = 0;
                 rb.velocity = Vector2.zero;
@@ -70,46 +74,99 @@ public class PlayerMovement : MonoBehaviour
         {
             wJumpCooldown += Time.deltaTime;
         }
-        vJumpCooldown += Time.deltaTime;
+        doubleJumpCooldown += Time.deltaTime;
+
+        if( Input.GetKey(KeyCode.LeftShift) && canDash) // Call coroutine Dash
+        {
+            StartCoroutine(Dash());
+        }
     }
 
+    //Jump Logic
     private void Jump()
     {
-        //Jump Logic
-        if ((isGrounded() || (!isGrounded() && jumped)) && vJumpCooldown >= vJumpCooldownOut) // Regular Jump and Double Jump
+        if (isGrounded) // Regular Jump
         {
             rb.velocity = new Vector2(rb.velocity.x, vJumpForce);
-            jumped = !jumped;
         }
-        else if (!isGrounded() && onWall()) { // Wall Jump
-            if (horizontalInput == 0) // Check player is moving (for wall to wall jumps)
-            {
-                rb.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * hJumpForce, 0); // Force flip
-                transform.localScale = new Vector3(-Mathf.Sign(transform.localScale.x), transform.localScale.y, transform.localScale.z);
-            }
-            else {
-                rb.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 6, vJumpForce);
-
-            }
-            wJumpCooldown = 0f;
-            jumped = !jumped;
-        }
-
-        if (isGrounded() && vJumpCooldown >= vJumpCooldownOut) //reset cooldown
+        else if ((!isGrounded && canDoubleJump) && doubleJumpCooldown >= doubleJumpCooldownOut) // Double Jump
         {
-            vJumpCooldown = 0f; 
+            rb.velocity = new Vector2(rb.velocity.x, vJumpForce);
+            canDoubleJump = false;
+        }
+        else if (!isGrounded && onWall) { // Wall Jump
+            RaycastHit2D ray = Physics2D.Raycast(transform.position, Vector2.right, 1f, terrainL); // Raycast that only hits terrain
+            if (ray && transform.localScale.x > 0) // Wall to the right and facing right
+            {
+                climbJump();
+            }
+            else if(!ray && transform.localScale.x < 0) // Wall to the left and facing left
+            {
+                climbJump();
+            }
+            else // Facing away from wall
+            {
+                wallToWall();
+            }
+                wJumpCooldown = 0f;
+            canDoubleJump = true;
+        }
+
+        if (isGrounded && doubleJumpCooldown >= doubleJumpCooldownOut) //reset cooldown
+        {
+            doubleJumpCooldown = 0f;
+        }
+    }
+    //Auxiliary methods for jumping
+    private void climbJump()
+    {
+        rb.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 6, vJumpForce);
+        Debug.Log("ClimbJump");
+    }
+    private void wallToWall()
+    {
+        rb.velocity = new Vector2(transform.localScale.x * hJumpForce, 10);
+        Debug.Log("WallToWall");
+    }
+
+    //IsGrounded and OnWall logic
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Ground")
+        {
+            isGrounded = true;
+        }
+        if (collision.gameObject.tag == "Wall")
+        {
+            onWall = true;
+        }
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Ground")
+        {
+            isGrounded = false;
+            canDoubleJump = true;
+        }
+        if (collision.gameObject.tag == "Wall")
+        {
+            onWall = false;
         }
     }
 
-    private bool isGrounded()
+    private IEnumerator Dash() // Coroutine responsible for dashing. Stores gravity, handles dash logic with booleans, turns on and off trail and handles the dash's cooldown
     {
-        RaycastHit2D ray = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, Vector2.down, 0.1f, TerrainL); // Box shaped RayCast. BoxCast gets the center of the box, the size, the direction (down), the size of the ray and finally the layer mask
-        return ray.collider != null;
-    }
-
-    private bool onWall()
-    {
-        RaycastHit2D ray = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, new Vector2(transform.localScale.x, 0), 0.1f, TerrainL); // Box shaped RayCast. BoxCast gets the center of the box, the size, the direction (down), the size of the ray and finally the layer mask
-        return ray.collider != null;
+        canDash = false;
+        isDashing = true;
+        float storeGravity = rb.gravityScale;
+        rb.gravityScale = 0;
+        rb.velocity = new Vector2(transform.localScale.x * dashPower, 0f);
+        trail.emitting = true;
+        yield return new WaitForSeconds(dashTime);
+        trail.emitting = false;
+        rb.gravityScale = storeGravity;
+        isDashing = false;
+        yield return new WaitForSeconds(dashCooldown);
+        canDash = true;
     }
 }
