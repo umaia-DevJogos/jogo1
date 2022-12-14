@@ -14,30 +14,29 @@ public class BossScript : MonoBehaviour
     [SerializeField] Animator anim;
     [SerializeField] ParticleSystem particles;
 
+    private Vector2 velocity;
+
     private void Start()
     {
         //die();
-        rb.velocity = new Vector2(Random.Range(-10f, 10f), Random.Range(-10f, 10f));
+        randomDirection();
     }
-
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        //patrol();
-    }
-    void patrol() //Patrol state. Goes from wall to wall or end of platform and turns before the end or when it hits anything on the terrain layer
-    {
-        if (collider.IsTouchingLayers(terrainL))
+        if(rb.velocity.x == 0 || rb.velocity.y == 0)
         {
-            ricochet();
+            randomDirection();
         }
-        rb.velocity = new Vector2(speed * Time.fixedDeltaTime, rb.velocity.y);
     }
 
-    void ricochet() // change enemy scale on X axis and speed to its negative
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        transform.localScale = new Vector2(transform.localScale.x * -1, transform.localScale.y);
-        speed *= -1;
+        randomDirection();
+    }
+    private void randomDirection()
+    {
+        rb.velocity = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f)) * speed;
+        Debug.Log("rew");
     }
 
     public void die() // Disables collider, plays death animation and destroys enemy

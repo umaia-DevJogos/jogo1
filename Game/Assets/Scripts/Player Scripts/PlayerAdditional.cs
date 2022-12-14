@@ -20,7 +20,7 @@ public class PlayerAdditional : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision) // Check if enemy hit player
     {
-        if (collision.transform.tag == "Enemy")
+        if (collision.transform.tag == "Enemy" && collision.transform.name != "Boss")
         {
             Destroy(gameObject);
         } else if (collision.transform.tag == "Trap")
