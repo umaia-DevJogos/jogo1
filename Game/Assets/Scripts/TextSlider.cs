@@ -4,6 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class TextSlider : MonoBehaviour
 {
     // Start is called before the first frame update
