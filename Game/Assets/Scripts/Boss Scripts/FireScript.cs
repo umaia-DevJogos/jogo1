@@ -12,19 +12,9 @@ public class FireScript : MonoBehaviour
     private Vector2 projectileDirection;
     void Start()
     {
-        //waveCooldown = 4f;
         InvokeRepeating("Fire", 0f, 4f);
     }
-    /*void Update()
-    {
-        waveCooldownOut -= Time.deltaTime;
 
-        if(waveCooldown >= 0)
-        {
-            Fire();
-            waveCooldown = waveCooldownOut;
-        }
-    }*/
     private void Fire()
     {
         float angleStep = (maxAngle - minAngle) / projectileLimit; //Divide degree range by the number of possible projectiles

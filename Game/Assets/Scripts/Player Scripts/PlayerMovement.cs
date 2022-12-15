@@ -119,12 +119,10 @@ public class PlayerMovement : MonoBehaviour
     private void climbJump()
     {
         rb.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 6, vJumpForce);
-        Debug.Log("ClimbJump");
     }
     private void wallToWall()
     {
         rb.velocity = new Vector2(transform.localScale.x * hJumpForce, 10);
-        Debug.Log("WallToWall");
     }
 
     //IsGrounded and OnWall logic

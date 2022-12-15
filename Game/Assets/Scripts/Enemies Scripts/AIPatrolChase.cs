@@ -117,6 +117,14 @@ public class AIPatrolChase : MonoBehaviour
         activePatrol = internalPatrol;
         activeChase = internalChase;
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.transform.tag == "Player")
+        {
+            die();
+        }
+    }
     public void die() // Disables collider, plays death animation and destroys enemy
     {
         collider.enabled = false;

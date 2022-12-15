@@ -36,4 +36,9 @@ public class ProjectileScript : MonoBehaviour
     {
         CancelInvoke(); // Resolve issue where Destroy could be invoked when projectile was inactive
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        gameObject.SetActive(false);
+    }
 }

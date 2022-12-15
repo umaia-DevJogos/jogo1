@@ -24,7 +24,7 @@ public class SwordScript : MonoBehaviour
             attackCheck = true;
         }
     }
-    private void OnTriggerEnter2D(Collider2D collision) // Check if enemy hit player
+    private void OnTriggerEnter2D(Collider2D collision) // Check sword hit enemy
     {
         if (collision.transform.tag == "Enemy" && attackCheck)
         {
@@ -38,8 +38,7 @@ public class SwordScript : MonoBehaviour
             }
             else if (collision.transform.name == "Boss")
             {
-                collision.gameObject.GetComponent<BossScript>().die();
-
+                collision.gameObject.GetComponent<BossScript>().takeDamage(1);
             }
             //Destroy(collision.transform.gameObject);
         }

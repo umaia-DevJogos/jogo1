@@ -47,6 +47,14 @@ public class AIPatrol : MonoBehaviour
         speed *= -1;
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.transform.tag == "Player")
+        {
+            die();
+        }
+    }
+
     public void die() // Disables collider, plays death animation and destroys enemy
     {
         collider.enabled = false;
