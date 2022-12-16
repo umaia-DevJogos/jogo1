@@ -7,15 +7,25 @@ public class PlayerAdditional : MonoBehaviour
     public int hp = 50;
     private SpriteRenderer sprite;
     [SerializeField] private ParticleSystem particles;
+    [SerializeField] private GameObject UI;
+    public Vector3 respawnpoint;
+
+    private void Awake()
+    {
+        respawnpoint = new Vector3(PlayerPrefs.GetFloat("Xrespawn"), PlayerPrefs.GetFloat("Yrespawn"), PlayerPrefs.GetFloat("Zrespawn"));
+        if(respawnpoint != new Vector3(0,0,0))
+        transform.position = respawnpoint;
+    }
     private void Start()
     {
         sprite = GetComponent<SpriteRenderer>();
+        respawnpoint = gameObject.transform.position;
     }
     void Update()
     {
         if(gameObject.transform.position.y < 0)
         {
-            Destroy(gameObject);
+            takeDamage(10);
         }
     }
 
@@ -60,7 +70,18 @@ public class PlayerAdditional : MonoBehaviour
         particles.Emit(20);
         Destroy(gameObject, 0.25f);
         Destroy(particles.transform.parent.gameObject, 1.5f);
+        UI.gameObject.SetActive(true);
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "Checkpoint")
+        {
+            PlayerPrefs.SetFloat("Xrespawn", collision.gameObject.transform.position.x);
+            PlayerPrefs.SetFloat("Yrespawn", collision.gameObject.transform.position.y);
+            PlayerPrefs.SetFloat("Zrespawn", collision.gameObject.transform.position.z);
+            PlayerPrefs.Save();
+        }
+    }
 }
 

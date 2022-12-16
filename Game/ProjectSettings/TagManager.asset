@@ -12,6 +12,7 @@ TagManager:
   - Ground
   - Projectile
   - Boss
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
