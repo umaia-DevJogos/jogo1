@@ -16,7 +16,6 @@ public class RetryScript : MonoBehaviour
     {
         SceneManager.UnloadSceneAsync(currentScene);
         SceneManager.LoadScene(currentScene);
-        Debug.Log(pa.respawnpoint);
     }
     public void MainMenu()
     {
@@ -25,5 +24,6 @@ public class RetryScript : MonoBehaviour
         PlayerPrefs.DeleteKey("Xrespawn");
         PlayerPrefs.DeleteKey("Yrespawn");
         PlayerPrefs.DeleteKey("Zrespawn");
+        PlayerPrefs.DeleteKey("Coins");
     }
 }

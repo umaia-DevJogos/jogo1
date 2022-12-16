@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class PlayerAdditional : MonoBehaviour
 {
-    public int hp = 50;
+    public int hp = 5;
+    private int starthp = 5;
     private SpriteRenderer sprite;
     [SerializeField] private ParticleSystem particles;
     [SerializeField] private GameObject UI;
     public Vector3 respawnpoint;
+    public int coins = 0;
+    [SerializeField] private int coinsMax;
 
     private void Awake()
     {
@@ -20,6 +23,7 @@ public class PlayerAdditional : MonoBehaviour
     {
         sprite = GetComponent<SpriteRenderer>();
         respawnpoint = gameObject.transform.position;
+        starthp = hp;
     }
     void Update()
     {
@@ -27,6 +31,8 @@ public class PlayerAdditional : MonoBehaviour
         {
             takeDamage(10);
         }
+        Debug.Log("Coins" + coins);
+        Debug.Log("HP: " + hp);
     }
 
     private void OnCollisionEnter2D(Collision2D collision) // Check if enemy hit player
@@ -50,6 +56,7 @@ public class PlayerAdditional : MonoBehaviour
         hp = hp - dmg;
         sprite.color = new Color(255, 0, 0, 1);
         StartCoroutine(death());
+        collectCoin(0); // check if hp can be added
     }
     IEnumerator death()
     {
@@ -80,8 +87,31 @@ public class PlayerAdditional : MonoBehaviour
             PlayerPrefs.SetFloat("Xrespawn", collision.gameObject.transform.position.x);
             PlayerPrefs.SetFloat("Yrespawn", collision.gameObject.transform.position.y);
             PlayerPrefs.SetFloat("Zrespawn", collision.gameObject.transform.position.z);
+            PlayerPrefs.SetInt("Coins", coins);
             PlayerPrefs.Save();
         }
     }
-}
 
+    public void collectCoin(int p_mode) // collectCoin method with two modes: onde to add a coin and another to check if hp can be added
+    {
+        if (p_mode == 1)
+        {
+            ++coins;
+            PlayerPrefs.SetInt("Coins", coins);
+            PlayerPrefs.Save();
+            if (coins >= coinsMax && hp < starthp)
+            {
+                ++hp;
+                coins -= coinsMax;
+            }
+        }
+        else if(p_mode == 0)
+        {
+            if (coins >= coinsMax && hp < starthp)
+            {
+                ++hp;
+                coins -= coinsMax;
+            }
+        }
+    }
+}

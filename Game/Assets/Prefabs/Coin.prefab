@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1618373343546037735}
   - component: {fileID: 1618373343546037734}
   - component: {fileID: 1618373343546037733}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Coin
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -99,6 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinSound: {fileID: 8300000, guid: bd56b10d4a876a541a5421c1d0d114f9, type: 3}
+  pa: {fileID: 0}
 --- !u!58 &1618373343546037733
 CircleCollider2D:
   m_ObjectHideFlags: 0
