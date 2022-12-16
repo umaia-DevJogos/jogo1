@@ -1028,7 +1028,8 @@ MonoBehaviour:
   particles: {fileID: 1798242610}
   UI: {fileID: 1474856802}
   respawnpoint: {x: 0, y: 0, z: 0}
-  coins: 0
+  coins: 99
+  coinsMax: 0
 --- !u!96 &497689311
 TrailRenderer:
   serializedVersion: 2
@@ -13111,10 +13112,6 @@ PrefabInstance:
     - target: {fileID: 1618373343546037752, guid: 0d690b8006c15154bad117e251135230, type: 3}
       propertyPath: m_Name
       value: Coin
-      objectReference: {fileID: 0}
-    - target: {fileID: 1618373343546037752, guid: 0d690b8006c15154bad117e251135230, type: 3}
-      propertyPath: m_Layer
-      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d690b8006c15154bad117e251135230, type: 3}
