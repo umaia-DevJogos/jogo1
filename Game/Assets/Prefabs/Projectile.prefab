@@ -136,3 +136,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ba12c87548e8b3468bd4407bf1b75ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rageProjectileSprite: {fileID: 21300000, guid: 6b06e73bf2c1f8447a7652a6a1eec1ec, type: 3}
+  fireScript: {fileID: 0}

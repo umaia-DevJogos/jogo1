@@ -14,9 +14,11 @@ public class BossScript : MonoBehaviour
     [SerializeField] ParticleSystem particles;
 
     public int hp = 20;
+    public int starthp = 20;
     private SpriteRenderer sprite;
     private void Start()
     {
+        starthp = hp;
         sprite = GetComponent<SpriteRenderer>();
         randomDirection();
     }
