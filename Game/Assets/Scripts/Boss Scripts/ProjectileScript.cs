@@ -7,8 +7,8 @@ public class ProjectileScript : MonoBehaviour
     private Vector2 direction;
     private float speed;
     private SpriteRenderer spriteRenderer;
-    [SerializeField] public Sprite rageProjectileSprite;
-    [SerializeField] public FireScript fireScript; // Get ragemode
+    [SerializeField] private Sprite rageProjectileSprite;
+    private FireScript fireScript; // Get ragemode
     private void OnEnable() // Called when projectile becomes active
     {
         Invoke("Destroy", 3f);
@@ -18,6 +18,8 @@ public class ProjectileScript : MonoBehaviour
     {
         speed = 5f;
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
+        GameObject Boss = GameObject.Find("Boss");
+        fireScript = Boss.GetComponent<FireScript>();
     }
 
     void Update()
