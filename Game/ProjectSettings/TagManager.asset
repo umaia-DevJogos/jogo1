@@ -13,6 +13,7 @@ TagManager:
   - Projectile
   - Boss
   - Checkpoint
+  - Goal
   layers:
   - Default
   - TransparentFX
