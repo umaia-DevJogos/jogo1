@@ -7,5 +7,9 @@ public class EndTrigger : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
         {
             SceneManager.LoadScene(Level_Boss);
-        }
+            //Delete Last respawnpoint position
+            PlayerPrefs.DeleteKey("Xrespawn");
+            PlayerPrefs.DeleteKey("Yrespawn");
+            PlayerPrefs.DeleteKey("Zrespawn");
+    }
 }

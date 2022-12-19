@@ -418,3 +418,37 @@ Received Import Request.
   path: Assets/Levels/Level_1.unity
   artifactKey: Guid(0e477994a2f5f8c4f926684a75c1f618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Levels/Level_1.unity using Guid(0e477994a2f5f8c4f926684a75c1f618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf0d01fb0e0b2f51531d2b4217a8efa') in 0.007541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2192.155884 seconds.
+  path: Assets/Sprites/Coins.png
+  artifactKey: Guid(274d64617113287499ed1c4165d1d8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Coins.png using Guid(274d64617113287499ed1c4165d1d8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceab2e881e961197dc579b0d6a80557a') in 0.112925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Sprites/Objects.png
+  artifactKey: Guid(f73dfe034c22cfc41bd7e8799020a5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Objects.png using Guid(f73dfe034c22cfc41bd7e8799020a5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d2517748edecd7b873ac82cf0063f1') in 0.024942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/Square.png
+  artifactKey: Guid(e399b0e320d8d72489ebc3ea041048df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Square.png using Guid(e399b0e320d8d72489ebc3ea041048df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9f8d2bf345b292592f194d64fc6219') in 0.035766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Enemy_dead.png
+  artifactKey: Guid(c8f58f1dc82a2d44182ee11b710c4360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemy_dead.png using Guid(c8f58f1dc82a2d44182ee11b710c4360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b6ab1e92f7269d9da29651e9af13f2') in 0.052354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Sword.png
+  artifactKey: Guid(ddd10825923f2c24d8cbfd5cbc7ace40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sword.png using Guid(ddd10825923f2c24d8cbfd5cbc7ace40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6608d380a35089f51a8d19c264f279') in 0.019875 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
