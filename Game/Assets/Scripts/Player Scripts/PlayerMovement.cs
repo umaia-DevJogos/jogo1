@@ -7,6 +7,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private float vJumpForce;
     [SerializeField] private float hJumpForce;
+    [SerializeField] private float bugJumpForce;
+    private float bugJumpMeter;
+    [SerializeField] private float bugJumpMeterOut;
     private bool isGrounded;
     private bool onWall;
     [SerializeField] private LayerMask terrainL;
@@ -24,59 +27,69 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float dashCooldown;
     [SerializeField] private TrailRenderer trail;
 
-    // Start is called before the first frame update
     void Start()
     {
+        bugJumpMeter = bugJumpMeterOut;
         rb = GetComponent<Rigidbody2D>(); //Ir buscar componente RigidBody2D aplicada ao player
     }
 
-    // Update is called once per frame
     void Update()
     {
+        Debug.Log(bugJumpMeter);
         if (isDashing) // Prevents other motion if player is dashing
         {
             return;
         }
-        horizontalInput = Input.GetAxis("Horizontal"); //Store horizontal input
-
-        // Flip Sprite
-        if (horizontalInput > 0.01f)
+        if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)) && (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)) && bugJumpMeter > 0) // Check if contradicting horizontal inputs are being given
         {
-            transform.localScale = Vector3.one;
-        } else if (horizontalInput < -0.01f)
-        {
-            transform.localScale = new Vector3(-1, 1, 1);
-            //transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
-        }
-        // WallJump (with cooldown)
-        if (wJumpCooldown > 0.1f)
-        {
-            rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y); // Move horizontally
-
-            if(onWall && !isGrounded)
-            {
-                rb.gravityScale = 0;
-                rb.velocity = Vector2.zero;
-            } else //prevents player from levitating
-            {
-                rb.gravityScale = 3;
-            }
-
-            // Call Jump
-            if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow))
-            {
-                Jump();
-            }
+            rb.velocity = new Vector2(0, bugJumpForce); // Bug Jump
+            bugJumpMeter -= Time.deltaTime;
         }
         else
         {
-            wJumpCooldown += Time.deltaTime;
-        }
-        doubleJumpCooldown += Time.deltaTime;
+            horizontalInput = Input.GetAxis("Horizontal"); //Store horizontal input
 
-        if( Input.GetKey(KeyCode.LeftShift) && canDash) // Call coroutine Dash
-        {
-            StartCoroutine(Dash());
+            // Flip Sprite
+            if (horizontalInput > 0.01f)
+            {
+                transform.localScale = Vector3.one;
+            }
+            else if (horizontalInput < -0.01f)
+            {
+                transform.localScale = new Vector3(-1, 1, 1);
+                //transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+            }
+            // WallJump (with cooldown)
+            if (wJumpCooldown > 0.1f)
+            {
+                rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y); // Move horizontally
+
+                if (onWall && !isGrounded)
+                {
+                    rb.gravityScale = 0;
+                    rb.velocity = Vector2.zero;
+                }
+                else //prevents player from levitating
+                {
+                    rb.gravityScale = 3;
+                }
+
+                // Call Jump
+                if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow))
+                {
+                    Jump();
+                }
+            }
+            else
+            {
+                wJumpCooldown += Time.deltaTime;
+            }
+            doubleJumpCooldown += Time.deltaTime;
+
+            if ((Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift)) && canDash) // Call coroutine Dash
+            {
+                StartCoroutine(Dash());
+            }
         }
     }
 
@@ -128,7 +141,7 @@ public class PlayerMovement : MonoBehaviour
     //IsGrounded and OnWall logic
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "Ground")
+        if (collision.gameObject.tag == "Ground")
         {
             isGrounded = true;
         }
@@ -147,6 +160,14 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.tag == "Wall")
         {
             onWall = false;
+        }
+    }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if ((collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Wall") && bugJumpMeter < bugJumpMeterOut)
+        {
+            bugJumpMeter += Time.deltaTime;
         }
     }
 

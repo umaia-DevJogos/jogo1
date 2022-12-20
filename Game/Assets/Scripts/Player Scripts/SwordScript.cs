@@ -17,7 +17,7 @@ public class SwordScript : MonoBehaviour
         {
             attackCheck = false;
         }
-        if (Input.GetKeyDown("left ctrl") && cooldown <= 0)
+        if ((Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl)) && cooldown <= 0)
         {
             cooldown = 1f;
             anim.Play("attack_sword");

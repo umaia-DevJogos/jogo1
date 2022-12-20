@@ -7939,6 +7939,8 @@ MonoBehaviour:
   speed: 10
   vJumpForce: 15
   hJumpForce: 20
+  bugJumpForce: 10
+  bugJumpMeterOut: 4
   terrainL:
     serializedVersion: 2
     m_Bits: 256
