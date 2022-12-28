@@ -1,12 +1,12 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class EndTrigger : MonoBehaviour
+public class GoToBossLevelTrigger : MonoBehaviour
 {
     public int Level_Boss;
     void OnTriggerEnter2D(Collider2D other)
         {
-            SceneManager.LoadScene(Level_Boss);
+            SceneManager.LoadScene(3);
             //Delete Last respawnpoint position
             PlayerPrefs.DeleteKey("Xrespawn");
             PlayerPrefs.DeleteKey("Yrespawn");
