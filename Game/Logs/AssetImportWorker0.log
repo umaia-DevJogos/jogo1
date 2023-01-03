@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'en' Physical Memory: 16315 MB
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'pt' Physical Memory: 16217 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-E:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-E:/Unity Projects/2D v1/Game
+C:/Users/Admin/Documents/GitHub/jogo1/Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-4652
-Successfully changed project path to: E:/Unity Projects/2D v1/Game
-E:/Unity Projects/2D v1/Game
+58168
+Successfully changed project path to: C:/Users/Admin/Documents/GitHub/jogo1/Game
+C:/Users/Admin/Documents/GitHub/jogo1/Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,108 +47,105 @@ E:/Unity Projects/2D v1/Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 131.26 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 91.31 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
-[Subsystems] Discovering subsystems at path E:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/Unity Projects/2D v1/Game/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Admin/Documents/GitHub/jogo1/Game/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Radeon (TM) RX 480 Graphics (ID=0x67df)
-    Vendor:   ATI
-    VRAM:     4074 MB
-    Driver:   31.0.12029.1042
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   30.0.14.7111
 Initialize mono
-Mono path[0] = 'E:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
-Mono path[1] = 'E:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'E:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: E:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: E:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004673 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004319 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 142.29 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 93.28 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.794 seconds
+- Completed reload, in  0.705 seconds
 Domain Reload Profiling:
-	ReloadAssembly (795ms)
-		BeginReloadAssembly (82ms)
+	ReloadAssembly (705ms)
+		BeginReloadAssembly (107ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (588ms)
-			LoadAssemblies (81ms)
+		EndReloadAssembly (477ms)
+			LoadAssemblies (105ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (123ms)
+			SetupTypeCache (118ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (376ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (276ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (142ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (168ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005446 seconds.
+Registered in 0.006728 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\2D v1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\2D v1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\GitHub\jogo1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\GitHub\jogo1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 139.09 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 111.54 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.411 seconds
+- Completed reload, in  1.121 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1412ms)
-		BeginReloadAssembly (126ms)
+	ReloadAssembly (1122ms)
+		BeginReloadAssembly (93ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1156ms)
-			LoadAssemblies (90ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (914ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (288ms)
+			SetupTypeCache (220ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (81ms)
-			SetupLoadedEditorAssemblies (633ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (512ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (139ms)
-				BeforeProcessingInitializeOnLoad (124ms)
-				ProcessInitializeOnLoadAttributes (310ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (112ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.92 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4537 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 45 unused Assets / (283.2 KB). Loaded Objects now: 4995.
-Memory consumption went from 245.2 MB to 244.9 MB.
-Total: 4.287900 ms (FindLiveObjects: 0.399500 ms CreateObjectMapping: 0.137200 ms MarkObjects: 3.505700 ms  DeleteObjects: 0.244100 ms)
+Unloading 39 unused Assets / (96.5 KB). Loaded Objects now: 4996.
+Memory consumption went from 172.3 MB to 172.2 MB.
+Total: 3.078300 ms (FindLiveObjects: 0.287300 ms CreateObjectMapping: 0.202800 ms MarkObjects: 2.474400 ms  DeleteObjects: 0.112600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,68 +159,141 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 16546.115552 seconds.
-  path: Assets/Levels/Level_1.unity
-  artifactKey: Guid(0e477994a2f5f8c4f926684a75c1f618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/Level_1.unity using Guid(0e477994a2f5f8c4f926684a75c1f618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71aef54b30334a132de764395d14e27') in 0.015354 seconds 
+  Time since last request: 1305242.621067 seconds.
+  path: Assets/Animations/portal/Portal.anim
+  artifactKey: Guid(b01fd5643a3801e40bb4f6a565f19e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/portal/Portal.anim using Guid(b01fd5643a3801e40bb4f6a565f19e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b591f396267fb88567c62300e2fc44d') in 0.031266 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 287.719485 seconds.
-  path: Assets/Scripts/FallingPlatformScript.cs
-  artifactKey: Guid(6c0d44faa1a514a40b0755d5db2b3afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FallingPlatformScript.cs using Guid(6c0d44faa1a514a40b0755d5db2b3afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0cf0feaa7c9566f7f5b3ba54d86e758') in 0.028324 seconds 
+  Time since last request: 9.149007 seconds.
+  path: Assets/Levels/Level_2.unity
+  artifactKey: Guid(a918f7b3a050e5b438fd44ae6ff9e75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Levels/Level_2.unity using Guid(a918f7b3a050e5b438fd44ae6ff9e75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e93e879578f345b46d55e584e7e583f5') in 0.002862 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.210553 seconds.
-  path: Assets/Scripts/PortalScripts/SubPortal1Script.cs
-  artifactKey: Guid(2e74dd8cae7885a49b5ebec7b5e33dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PortalScripts/SubPortal1Script.cs using Guid(2e74dd8cae7885a49b5ebec7b5e33dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33222831cdc65e2e1741a6afe1e0c91d') in 0.003695 seconds 
+  Time since last request: 95.120674 seconds.
+  path: Assets/Animations/PlataformsBoss/Island_1.controller
+  artifactKey: Guid(4c6d5662df79da1429f9a95fcd8807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/PlataformsBoss/Island_1.controller using Guid(4c6d5662df79da1429f9a95fcd8807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68e61ed41f27afc6a303100bd1a5c0a') in 0.004586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.456448 seconds.
+  path: Assets/Animations/PlataformsBoss/Island_1 1.controller
+  artifactKey: Guid(b46bb9414d67aa842b483b2c55342a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/PlataformsBoss/Island_1 1.controller using Guid(b46bb9414d67aa842b483b2c55342a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d3945406b9367a65b930c293c82286') in 0.003376 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005692 seconds.
+Registered in 0.005945 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\2D v1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\2D v1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\GitHub\jogo1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\GitHub\jogo1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.06 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.303 seconds
+- Completed reload, in  1.065 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1303ms)
-		BeginReloadAssembly (165ms)
+	ReloadAssembly (1065ms)
+		BeginReloadAssembly (152ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (1023ms)
-			LoadAssemblies (100ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (817ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (356ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (429ms)
+			SetupTypeCache (263ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (369ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (271ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4494 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (71.6 KB). Loaded Objects now: 5000.
+Memory consumption went from 168.4 MB to 168.3 MB.
+Total: 3.156900 ms (FindLiveObjects: 0.319200 ms CreateObjectMapping: 0.212300 ms MarkObjects: 2.472100 ms  DeleteObjects: 0.151300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 157.869830 seconds.
+  path: Assets/Animations/PlataformsBoss/UpAndDown.anim
+  artifactKey: Guid(7c242abb7f7b6ca4a90365e2b9db1885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/PlataformsBoss/UpAndDown.anim using Guid(7c242abb7f7b6ca4a90365e2b9db1885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd96e3a59d755ea6a991404f0e9071d4') in 0.017002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.936416 seconds.
+  path: Assets/Animations/PlataformsBoss/UpAndDown3.anim
+  artifactKey: Guid(7c242abb7f7b6ca4a90365e2b9db1885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/PlataformsBoss/UpAndDown3.anim using Guid(7c242abb7f7b6ca4a90365e2b9db1885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1b50c74c25b0ee1943e81da0acd262') in 0.005640 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009223 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\GitHub\jogo1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\GitHub\jogo1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.053 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1055ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (821ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (251ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (371ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.59 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.01 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4500 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (250.9 KB). Loaded Objects now: 4998.
-Memory consumption went from 241.8 MB to 241.6 MB.
-Total: 5.343200 ms (FindLiveObjects: 0.529300 ms CreateObjectMapping: 0.248000 ms MarkObjects: 4.129900 ms  DeleteObjects: 0.434500 ms)
+Unloading 4494 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (86.8 KB). Loaded Objects now: 5003.
+Memory consumption went from 168.4 MB to 168.3 MB.
+Total: 3.384400 ms (FindLiveObjects: 0.279800 ms CreateObjectMapping: 0.166600 ms MarkObjects: 2.846000 ms  DeleteObjects: 0.090600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -237,1103 +307,55 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 307.477647 seconds.
-  path: Assets/Scripts/FallingPlatformScript.cs
-  artifactKey: Guid(6c0d44faa1a514a40b0755d5db2b3afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FallingPlatformScript.cs using Guid(6c0d44faa1a514a40b0755d5db2b3afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d6e6938accb4b307d47568da45658d') in 0.011650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.108748 seconds.
-  path: Assets/Scripts/FallingPlatformScript.cs
-  artifactKey: Guid(6c0d44faa1a514a40b0755d5db2b3afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FallingPlatformScript.cs using Guid(6c0d44faa1a514a40b0755d5db2b3afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65889050991fc06493944c55fb94407c') in 0.001889 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.969127 seconds.
-  path: Assets/Scripts/FallingPlatformScript.cs
-  artifactKey: Guid(6c0d44faa1a514a40b0755d5db2b3afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FallingPlatformScript.cs using Guid(6c0d44faa1a514a40b0755d5db2b3afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d84c97da953625dbbb5c8d49f97eb81') in 0.002200 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.643994 seconds.
-  path: Assets/Scripts/FallingPlatformScript.cs
-  artifactKey: Guid(6c0d44faa1a514a40b0755d5db2b3afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FallingPlatformScript.cs using Guid(6c0d44faa1a514a40b0755d5db2b3afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b376ed8345fefbd069bc0301c9150c') in 0.002787 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.226107 seconds.
-  path: Assets/Scripts/FallingPlatformScript.cs
-  artifactKey: Guid(6c0d44faa1a514a40b0755d5db2b3afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FallingPlatformScript.cs using Guid(6c0d44faa1a514a40b0755d5db2b3afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d6f16f6b547a20bd975928bc238fa6') in 0.002178 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.726637 seconds.
-  path: Assets/Scripts/FallingPlatformScript.cs
-  artifactKey: Guid(6c0d44faa1a514a40b0755d5db2b3afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FallingPlatformScript.cs using Guid(6c0d44faa1a514a40b0755d5db2b3afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c6c4ecaaf19b3249f56fe0d25e4a8f') in 0.002469 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.911370 seconds.
-  path: Assets/Scripts/FallingPlatformScript.cs
-  artifactKey: Guid(6c0d44faa1a514a40b0755d5db2b3afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FallingPlatformScript.cs using Guid(6c0d44faa1a514a40b0755d5db2b3afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0480d583108208a31fc8ae8c4c961e1') in 0.002771 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.166207 seconds.
-  path: Assets/Scripts/FallingPlatformScript.cs
-  artifactKey: Guid(6c0d44faa1a514a40b0755d5db2b3afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FallingPlatformScript.cs using Guid(6c0d44faa1a514a40b0755d5db2b3afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c39b9276a34d62ce95c60133a4681e54') in 0.002572 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.905995 seconds.
-  path: Assets/Scripts/FallingPlatformScript.cs
-  artifactKey: Guid(6c0d44faa1a514a40b0755d5db2b3afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FallingPlatformScript.cs using Guid(6c0d44faa1a514a40b0755d5db2b3afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c104eb568c89b55c01b47e1391306cab') in 0.002036 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 26.921930 seconds.
-  path: Assets/Scripts/FallingPlatformScript.cs
-  artifactKey: Guid(6c0d44faa1a514a40b0755d5db2b3afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FallingPlatformScript.cs using Guid(6c0d44faa1a514a40b0755d5db2b3afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987dc85a7e159c874a2ba739e1456ead') in 0.002295 seconds 
+  Time since last request: 120.553866 seconds.
+  path: Assets/Animations/PlataformsBoss/Island_3.controller
+  artifactKey: Guid(895263d4d5e51e9469cb22634df9994e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/PlataformsBoss/Island_3.controller using Guid(895263d4d5e51e9469cb22634df9994e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33c62bc918d3c71a17888d54f2bf68a') in 0.017373 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005953 seconds.
+Registered in 0.005845 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\2D v1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\2D v1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\GitHub\jogo1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\GitHub\jogo1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.94 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.292 seconds
+- Completed reload, in  1.030 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1293ms)
-		BeginReloadAssembly (163ms)
+	ReloadAssembly (1031ms)
+		BeginReloadAssembly (134ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1010ms)
-			LoadAssemblies (101ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (807ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (339ms)
+			SetupTypeCache (239ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (442ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (377ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (276ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.52 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4500 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (250.7 KB). Loaded Objects now: 5001.
-Memory consumption went from 241.9 MB to 241.6 MB.
-Total: 4.406700 ms (FindLiveObjects: 0.391300 ms CreateObjectMapping: 0.127100 ms MarkObjects: 3.667900 ms  DeleteObjects: 0.219400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 34.146154 seconds.
-  path: Assets/Imports/Pixel Monster Pack/32x32 monsters/skull-blue.png
-  artifactKey: Guid(8e2d17953f2974646a0674f8edb5faa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Monster Pack/32x32 monsters/skull-blue.png using Guid(8e2d17953f2974646a0674f8edb5faa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22503536d0a06632cf277a037716e54b') in 0.119338 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.789854 seconds.
-  path: Assets/Imports/Pixel Monster Pack/32x32 monsters/skull-red.png
-  artifactKey: Guid(7099be8759b55e24bbc19c92b6e92b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Monster Pack/32x32 monsters/skull-red.png using Guid(7099be8759b55e24bbc19c92b6e92b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740e59f6c21483dc789fd506f73078f8') in 0.015271 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.269096 seconds.
-  path: Assets/Imports/Pixel Monster Pack/32x32 monsters/skull-violet.png
-  artifactKey: Guid(eadd61a052013ea40b57e2116c637677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Monster Pack/32x32 monsters/skull-violet.png using Guid(eadd61a052013ea40b57e2116c637677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c026e732e6bc7334f82f7872dea99c') in 0.017230 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.383446 seconds.
-  path: Assets/Imports/Pixel Monster Pack/32x32 monsters/slime-black.png
-  artifactKey: Guid(98a78e783122f1d49a1d6b39ca80ec14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Monster Pack/32x32 monsters/slime-black.png using Guid(98a78e783122f1d49a1d6b39ca80ec14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4b47e605f50f314d412d1e5d72fe28') in 0.028951 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.059801 seconds.
-  path: Assets/Imports/Pixel Monster Pack/32x32 monsters/slime-green.png
-  artifactKey: Guid(11eac439ccf58354fb7f1b7b67737a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Monster Pack/32x32 monsters/slime-green.png using Guid(11eac439ccf58354fb7f1b7b67737a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17a1e09d809fc1f3376cb1d7ea43b2a') in 0.016414 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.151241 seconds.
-  path: Assets/Imports/Pixel Monster Pack/32x32 monsters/spider-blue.png
-  artifactKey: Guid(932812732bbf750488c77d88fde217ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Monster Pack/32x32 monsters/spider-blue.png using Guid(932812732bbf750488c77d88fde217ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8936c05da4b206df15d3fb8cbf410ded') in 0.017691 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.024930 seconds.
-  path: Assets/Imports/Pixel Monster Pack/32x32 monsters/spider-green.png
-  artifactKey: Guid(71476fb161036e84ba514a3767ea7337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Monster Pack/32x32 monsters/spider-green.png using Guid(71476fb161036e84ba514a3767ea7337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60590fa6cffe2a1d9d53b857e5fa521d') in 0.016181 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.452554 seconds.
-  path: Assets/Imports/Pixel Monster Pack/32x32 monsters/spider-white.png
-  artifactKey: Guid(545a19dc6097a4547893d22f96f65cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Monster Pack/32x32 monsters/spider-white.png using Guid(545a19dc6097a4547893d22f96f65cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f2935429fe15324dd8719efe5aed66') in 0.015820 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.481966 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Split_Edge.png
-  artifactKey: Guid(900065f34a33d2e478bf93a0191f68de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Split_Edge.png using Guid(900065f34a33d2e478bf93a0191f68de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2a07eb4ef974e26ee4758ed15a9dae') in 0.051545 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.584947 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Split_Edge.png
-  artifactKey: Guid(8800032f7e7cdd544b74849c80ce05d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Split_Edge.png using Guid(8800032f7e7cdd544b74849c80ce05d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b28c9fde280d2fc46447d1e7cb07f0') in 0.049037 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Split_Edge@2x.png
-  artifactKey: Guid(3c84cd9c7ddd51c4b959d02c41aced07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Split_Edge@2x.png using Guid(3c84cd9c7ddd51c4b959d02c41aced07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9166316a5240db30e58fbe466bf145a8') in 0.031406 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Split_Edge@3x.png
-  artifactKey: Guid(4d2d8fb4fc2041441980b4ec253532b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Split_Edge@3x.png using Guid(4d2d8fb4fc2041441980b4ec253532b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ce67613b4a20ac883af0b9165584df') in 0.027899 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.268141 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Split_Edge@4x.png
-  artifactKey: Guid(8272ea7c59da847458432e7c88bf7766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Split_Edge@4x.png using Guid(8272ea7c59da847458432e7c88bf7766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3b788e7fa6a51664550f8bf9d05052') in 0.064946 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.891400 seconds.
-  path: Assets/Imports/Pixel Monster Pack/32x32 monsters/cerberus-black.png
-  artifactKey: Guid(7b5003f1c938a804a8c25728d3f30398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Monster Pack/32x32 monsters/cerberus-black.png using Guid(7b5003f1c938a804a8c25728d3f30398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e9817633ff84143b1707988d9574f6') in 0.041801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.036097 seconds.
-  path: Assets/Imports/Free 2D Cartoon Parallax Background/FullBG/1_Mountain.png
-  artifactKey: Guid(fd00b29c3d9553d4c8e0ab3b572af409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Free 2D Cartoon Parallax Background/FullBG/1_Mountain.png using Guid(fd00b29c3d9553d4c8e0ab3b572af409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5e68f544361164f9a94e7a350063e2') in 0.219237 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.857353 seconds.
-  path: Assets/Imports/Free 2D Cartoon Parallax Background/FullBG/2_Desert.png
-  artifactKey: Guid(9d1a3e0bc36dfc9468a738d92b6e92d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Free 2D Cartoon Parallax Background/FullBG/2_Desert.png using Guid(9d1a3e0bc36dfc9468a738d92b6e92d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d66218f7e286bb5364098c49426e6d') in 0.103008 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.709819 seconds.
-  path: Assets/Imports/Free 2D Cartoon Parallax Background/FullBG/3_Graveyard.png
-  artifactKey: Guid(367fef7c7a0cf8b4e8fc2020259965e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Free 2D Cartoon Parallax Background/FullBG/3_Graveyard.png using Guid(367fef7c7a0cf8b4e8fc2020259965e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8c9efe597cc80b5c0be44bd353d7e9') in 0.101937 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.225015 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/04.png
-  artifactKey: Guid(d95c5491dba045d4fbea76d6223000b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/04.png using Guid(d95c5491dba045d4fbea76d6223000b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65afbcb2745e82453dba78ebec950894') in 0.055731 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.986737 seconds.
-  path: Assets/Imports/Free 2D Cartoon Parallax Background/FullBG/4_Snow.png
-  artifactKey: Guid(429517ea1b1287a47952cd5cd8261d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Free 2D Cartoon Parallax Background/FullBG/4_Snow.png using Guid(429517ea1b1287a47952cd5cd8261d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065bf7d7d2ed7f2aa1d4757122c0d497') in 0.099498 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.202431 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/2px/05.png
-  artifactKey: Guid(0a279f3445d630c4b8b742a93fafef85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/2px/05.png using Guid(0a279f3445d630c4b8b742a93fafef85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a753afdd27d42a564d408f4ac69a25de') in 0.052818 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/05.png
-  artifactKey: Guid(4bb1777af97bdd747b5f31ec3472e923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/05.png using Guid(4bb1777af97bdd747b5f31ec3472e923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6c5f10bf53280ab3860dad7a916e6c') in 0.047977 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.708685 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/1px/05.png
-  artifactKey: Guid(3f563a58b1504a44eade25eb4b52fc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/1px/05.png using Guid(3f563a58b1504a44eade25eb4b52fc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d3bf8e8a6e507b87cbdc64cacf6de7') in 0.088391 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.633223 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/06.png
-  artifactKey: Guid(da68fddf429d8d24fbb9a492a377ab24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/06.png using Guid(da68fddf429d8d24fbb9a492a377ab24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec2144568483026bcfe9b194805587e') in 0.082656 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.411622 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/06.png
-  artifactKey: Guid(7b4c6c2ee743f734da92715ca71e64de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/06.png using Guid(7b4c6c2ee743f734da92715ca71e64de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b1264beabfed7396b04e702fc5e593') in 0.057348 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.293825 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/06.png
-  artifactKey: Guid(1b2fb24f59886c445bb416a007f17f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/06.png using Guid(1b2fb24f59886c445bb416a007f17f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f6ef37cc9a35cc01458a150db0a829') in 0.057719 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.023810 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/06 balls.png
-  artifactKey: Guid(3504e49f4c173fe4493bfaf3963b8308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/06 balls.png using Guid(3504e49f4c173fe4493bfaf3963b8308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd8bd6a98b335fcc7c61e43f5d3794c') in 0.061620 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/07.png
-  artifactKey: Guid(5c106446b350e9940b714a3d78dd4caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/07.png using Guid(5c106446b350e9940b714a3d78dd4caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0335b34deba61a07433675eb652b69a') in 0.031306 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.446381 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/07.png
-  artifactKey: Guid(656240d211e96de4da1446c395c8a3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/07.png using Guid(656240d211e96de4da1446c395c8a3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140b28cd6765d51d7ded7088e82b70de') in 0.069699 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/07.png
-  artifactKey: Guid(c198d4904774c784bb01dc3167c81716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/07.png using Guid(c198d4904774c784bb01dc3167c81716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69fb50d8d5da9b3a27ee0c5015dcd9db') in 0.069320 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.753365 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/07.png
-  artifactKey: Guid(a538391c36526b1419c5fd66001b3328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/07.png using Guid(a538391c36526b1419c5fd66001b3328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752cbe074f246f07199727ff85f6bd2f') in 0.058289 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.488950 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/08.png
-  artifactKey: Guid(a2fc4b1c2a863514eb4aa54eca5f3277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/08.png using Guid(a2fc4b1c2a863514eb4aa54eca5f3277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12ca2a3fba17d26167d738ac7a1f196') in 0.033566 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.319418 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/08.png
-  artifactKey: Guid(beb419bf89159374aa609b32827d3fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/08.png using Guid(beb419bf89159374aa609b32827d3fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'decbdc6b9c8b74311c1db52f79407292') in 0.028512 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/2px/08.png
-  artifactKey: Guid(7c8ea8193867c2b4baf373dd8dcb112d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/2px/08.png using Guid(7c8ea8193867c2b4baf373dd8dcb112d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da9515848883c102712d30b32f0555c') in 0.030881 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.038680 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/08.png
-  artifactKey: Guid(68de97b73138ce84396af9d6aa8be066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/08.png using Guid(68de97b73138ce84396af9d6aa8be066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e9eaf0dfee4c9a47a5b9732c72bb08') in 0.042389 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.372738 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/1px/08.png
-  artifactKey: Guid(9f14f54d7e9c30b41aac33dcf6ff2ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/1px/08.png using Guid(9f14f54d7e9c30b41aac33dcf6ff2ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8de7e11eab7bf7706d9e7f7d5638803') in 0.077740 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/2px/09.png
-  artifactKey: Guid(98e5327fafb8d6d438a461954dd243e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/2px/09.png using Guid(98e5327fafb8d6d438a461954dd243e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83b3ade9554848d8ee4ba54b13646b5') in 0.063261 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.340400 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/09.png
-  artifactKey: Guid(e08c03c8b9ffc7c4f842881f5af4a06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/09.png using Guid(e08c03c8b9ffc7c4f842881f5af4a06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4138d99069f03f646b51fae390c7180e') in 0.052370 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/09.png
-  artifactKey: Guid(3cf2eb9fe850dd14d89718a2b58ec22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/09.png using Guid(3cf2eb9fe850dd14d89718a2b58ec22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d0c61bb7240b43fe639fcf49c9c2ef') in 0.040710 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/09.png
-  artifactKey: Guid(5ce939fd374e3da4c950ded38fd98bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/09.png using Guid(5ce939fd374e3da4c950ded38fd98bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468f3c06d7f17974a38fb641a6b55335') in 0.064260 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.583860 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/10.png
-  artifactKey: Guid(248151d8c9bb9e846b0b605171e3c668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/10.png using Guid(248151d8c9bb9e846b0b605171e3c668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb3ea494e185064ffacfcda49f8f641') in 0.039359 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.495385 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/10.png
-  artifactKey: Guid(36d0eb93abb0cff4eabed6baf1383a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/10.png using Guid(36d0eb93abb0cff4eabed6baf1383a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac834397d3a05c2a2e20ba7024c84a1') in 0.067215 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/10.png
-  artifactKey: Guid(6c5d36addcd950d48b2e275b8ef4a8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/10.png using Guid(6c5d36addcd950d48b2e275b8ef4a8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82cd9b532a1e67a3bacd812a0b4caaef') in 0.049446 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.385034 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/10b.png
-  artifactKey: Guid(247e5b957cbf41c4ea3d7cd506241aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/10b.png using Guid(247e5b957cbf41c4ea3d7cd506241aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e804c5dd418152a14bb3c7f37270f22') in 0.019744 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.029177 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/11.png
-  artifactKey: Guid(10e67908fb0e1124c90403158f3b90fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/11.png using Guid(10e67908fb0e1124c90403158f3b90fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52cca9a0cdff7eef9cc0eb4fa2a4e843') in 0.047654 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/11.png
-  artifactKey: Guid(0bd6819311d72bb46bc36dc675b5afea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/11.png using Guid(0bd6819311d72bb46bc36dc675b5afea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a92a84a210b3459108760fd2035920fe') in 0.032112 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.293683 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/11.png
-  artifactKey: Guid(9426d6c6393b7e6448d5a19a3515b7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/11.png using Guid(9426d6c6393b7e6448d5a19a3515b7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda3595238a9b45d974093c9101b35c3') in 0.051194 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/11.png
-  artifactKey: Guid(894c2e8eb69928141968fbbda697e3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/11.png using Guid(894c2e8eb69928141968fbbda697e3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe308d26dff6a8337c5e98d3e13cbd8') in 0.057401 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/11.png
-  artifactKey: Guid(287b199526ae9b04a819ab30163bbb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/11.png using Guid(287b199526ae9b04a819ab30163bbb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b5fb6479e1738ee0bd7be7cfbd3afb') in 0.023349 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.286713 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/12.png
-  artifactKey: Guid(dce97e29b1bb190449107eb93e7c40d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/12.png using Guid(dce97e29b1bb190449107eb93e7c40d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772050faef6c057c988050033891477a') in 0.045878 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.272353 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/2px/12.png
-  artifactKey: Guid(92e54c72170417443ba372c2f2ea5290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/2px/12.png using Guid(92e54c72170417443ba372c2f2ea5290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16523b570a630484613b72c6f67f72eb') in 0.056047 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.024225 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/12.png
-  artifactKey: Guid(1917e96d46925584fa740f3f35bd6d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/12.png using Guid(1917e96d46925584fa740f3f35bd6d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9c2e4dc2cd86555b4f0230f3c69fb9') in 0.031633 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.250137 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/12.png
-  artifactKey: Guid(051dcdd64a407604b95a4b82fec82677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/12.png using Guid(051dcdd64a407604b95a4b82fec82677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e2a8df5409781d41c1c6de5ec6dbaa') in 0.042340 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.051732 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/1px/13.png
-  artifactKey: Guid(da7f1f00315717a4ab245a7ea0cd424f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/1px/13.png using Guid(da7f1f00315717a4ab245a7ea0cd424f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21e9f071e3c201298a85cae2c5f915e') in 0.040697 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.302639 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/13.png
-  artifactKey: Guid(cfe005f01a1f1d344bc6926d8900aa99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/13.png using Guid(cfe005f01a1f1d344bc6926d8900aa99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aac9c9bbebd110af1c63d5637651560') in 0.049578 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/13.png
-  artifactKey: Guid(a1545365ec38cfb43a8dce5059a07721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/13.png using Guid(a1545365ec38cfb43a8dce5059a07721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a283b6d0322ed75a328b6a5e87a987') in 0.026670 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.305647 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/2px/14.png
-  artifactKey: Guid(71c73b1eac076d84ba7f507b7b1afe73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/2px/14.png using Guid(71c73b1eac076d84ba7f507b7b1afe73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94bb6a864279fdd8802afa91c65c617f') in 0.062655 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/1px/14.png
-  artifactKey: Guid(5f223d44ea653504683ff8d6021df9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/1px/14.png using Guid(5f223d44ea653504683ff8d6021df9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84407738abc2dd6a3a9756941129a072') in 0.069638 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/14.png
-  artifactKey: Guid(f2495f0f41bd1d34a80b843563e16fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/14.png using Guid(f2495f0f41bd1d34a80b843563e16fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4230e65641ca82858cdad7be0624bf8') in 0.055701 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.514736 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/14.png
-  artifactKey: Guid(32321c27d54acba4da6fa3f813dca153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/14.png using Guid(32321c27d54acba4da6fa3f813dca153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2b85cc4d9c5a7ecb9ac8df500cca07') in 0.049409 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/15.png
-  artifactKey: Guid(43128b1d6c4015945a445b1f682711a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/15.png using Guid(43128b1d6c4015945a445b1f682711a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f66df11fb540d447846f7330512a82') in 0.025679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.413205 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/1px/15.png
-  artifactKey: Guid(b8426374e5648f84d8c1c958bf81cff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/1px/15.png using Guid(b8426374e5648f84d8c1c958bf81cff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799eb40579ac8c1122cf6f315007a285') in 0.063583 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.848740 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/16.png
-  artifactKey: Guid(4c057a63ce96a7c4d86669d3c41a2a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/16.png using Guid(4c057a63ce96a7c4d86669d3c41a2a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd8864ca21d086ae48b18be01d6cd66') in 0.049556 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/17.png
-  artifactKey: Guid(68a9a1bfad856d54e80d7957489da968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/17.png using Guid(68a9a1bfad856d54e80d7957489da968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65dd88835dea5d73237ad690a086ee4') in 0.039714 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/17.png
-  artifactKey: Guid(11b81214cef74e34591f3580b8766233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/17.png using Guid(11b81214cef74e34591f3580b8766233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6049395fe53da4e7ebd02afe3243df') in 0.056030 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/28.png
-  artifactKey: Guid(70615e33a92588642a6d1086c3d69158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/28.png using Guid(70615e33a92588642a6d1086c3d69158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102a79c18458c72645d77509dabee7e9') in 0.079136 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/31.png
-  artifactKey: Guid(2968afe8842acd240ad18cf43c377627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/31.png using Guid(2968afe8842acd240ad18cf43c377627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310dcd9b2fbed57e7c9b8e17c1030204') in 0.060091 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/32.png
-  artifactKey: Guid(86b31f2e676fecf4f8141da50736cd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/32.png using Guid(86b31f2e676fecf4f8141da50736cd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc9270ec5dba1cbf234fa41f9780f20') in 0.048504 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/19.png
-  artifactKey: Guid(cf279d1aeef8f5849a60e4a10e67539a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/19.png using Guid(cf279d1aeef8f5849a60e4a10e67539a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3b43a34cb7277d7748283833b007f7') in 0.060970 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/28.png
-  artifactKey: Guid(31c18af2d6ce08f4b85e068454653fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/28.png using Guid(31c18af2d6ce08f4b85e068454653fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb2d9d7b30827899ada1b31f1ae375f') in 0.071923 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/32.png
-  artifactKey: Guid(ead2fd350a66a2b4a960f4fd279f51e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/32.png using Guid(ead2fd350a66a2b4a960f4fd279f51e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb399816834bba287687d5b553836c0b') in 0.068259 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/30.png
-  artifactKey: Guid(563234a35cc95894989db0e9361e2d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/30.png using Guid(563234a35cc95894989db0e9361e2d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd39ed3708905ee89749c2aaca0d375b5') in 0.044733 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/34.png
-  artifactKey: Guid(e4d896d0634b68347969583767ef5bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/34.png using Guid(e4d896d0634b68347969583767ef5bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b334d8b554f936f460197a6b2f7d543') in 0.145234 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/30.png
-  artifactKey: Guid(c1dee18108eb67b4fa050932732a206a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/2px/30.png using Guid(c1dee18108eb67b4fa050932732a206a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff03e7dcc2ce5349e29d875b877e369') in 0.101233 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Imports/Pixel Monster Pack/32x32 monsters/boneworm-blue.png
-  artifactKey: Guid(283b986b48549674ab2c6128d296ecaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Monster Pack/32x32 monsters/boneworm-blue.png using Guid(283b986b48549674ab2c6128d296ecaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c3295662fb08c9c9d258f00e7a2d5a') in 0.079356 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/36.png
-  artifactKey: Guid(900c1e5ff70cfd84ab3a338979f92d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/36.png using Guid(900c1e5ff70cfd84ab3a338979f92d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aeccc89a6f3961725225b759fdf8d06') in 0.383799 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconplasticnotifyconflict.png
-  artifactKey: Guid(51582ae5ea51fa14996791a550f89473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconplasticnotifyconflict.png using Guid(51582ae5ea51fa14996791a550f89473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5adb1d153fe5407b1cbc3cc2b2c92217') in 0.121363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Imports/Pixel Monster Pack/32x32 monsters/boneworm-white.png
-  artifactKey: Guid(e725470deb4cd5e48869d437c2f7614a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Monster Pack/32x32 monsters/boneworm-white.png using Guid(e725470deb4cd5e48869d437c2f7614a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae759cd80f03df04719a4099619c96f') in 0.308000 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/36.png
-  artifactKey: Guid(4468909bcab71f643acfd615f4cc9abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/2px/36.png using Guid(4468909bcab71f643acfd615f4cc9abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd293588b9eaeae5feca38e2b2a6a7a30') in 0.146473 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninunity.png
-  artifactKey: Guid(f9161c6c9e06dc445ada3ee16d991f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninunity.png using Guid(f9161c6c9e06dc445ada3ee16d991f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a01d66a618369ea62547ec434c643c') in 0.232189 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Generate_Geometry@4x.png
-  artifactKey: Guid(db49e13fa9e16dc44b5ffb6bc43d4235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Generate_Geometry@4x.png using Guid(db49e13fa9e16dc44b5ffb6bc43d4235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc77da59f2aa6b93eaa7dddb293b3685') in 0.112627 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/23.png
-  artifactKey: Guid(84f0fd2b7558ec74185f3b80f3471094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/23.png using Guid(84f0fd2b7558ec74185f3b80f3471094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3df0b9915c0d75e6d6efe5663fda03') in 0.147040 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/25.png
-  artifactKey: Guid(3715fcbee16abf44d94a77b16f4ba186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/25.png using Guid(3715fcbee16abf44d94a77b16f4ba186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672d2b8877deab27ec36c03d92be6d53') in 0.221145 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconoutofsyncoverlay@2x.png
-  artifactKey: Guid(4d7e6e570e9d65a4c9a994783a0652e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconoutofsyncoverlay@2x.png using Guid(4d7e6e570e9d65a4c9a994783a0652e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60c1780b5d9338e1d6254f5a35fc90f') in 0.127035 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/37.png
-  artifactKey: Guid(dc8355d0a920d274583420eb97d047df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/37.png using Guid(dc8355d0a920d274583420eb97d047df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a47bb66718b02e96ca12a6f8ea4ecd8') in 0.075176 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/character_Mode@3x.png
-  artifactKey: Guid(dcea51d6065d64246aeec467afeff684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/character_Mode@3x.png using Guid(dcea51d6065d64246aeec467afeff684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25dda09fd098f9f72e3a3ca0c7a1436') in 0.038690 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/35.png
-  artifactKey: Guid(8100a85dfd84e684db0b6b819f6e180b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/35.png using Guid(8100a85dfd84e684db0b6b819f6e180b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3f1b93828630b6146c04fb3c710cc1') in 0.060415 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/27b.png
-  artifactKey: Guid(cd6e1fd0c5cf225448ba4ef4fea57667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/2px/27b.png using Guid(cd6e1fd0c5cf225448ba4ef4fea57667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f1d0096553045f653223ebff4d5bc03') in 0.098254 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sprites/PSDs/Checkpoint.psd
-  artifactKey: Guid(674cc09d95ca79a4b9a8d5b4434eb5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PSDs/Checkpoint.psd using Guid(674cc09d95ca79a4b9a8d5b4434eb5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59de653392bd1ec774c08e8ca57576cc') in 0.025768 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/23.png
-  artifactKey: Guid(340d7b875780dde4fb998cd92c9be1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/1px/23.png using Guid(340d7b875780dde4fb998cd92c9be1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f07bada561b38807b83ba6a2110786') in 0.072798 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/16.png
-  artifactKey: Guid(37a60e44db5f80f4cb3747fa1619e75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/16.png using Guid(37a60e44db5f80f4cb3747fa1619e75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff892a7eab70621c0c1c0d4be6bc400') in 0.051348 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/30.png
-  artifactKey: Guid(9cd0c5c6bb6b0b643abc394ecfdb9a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/1px/30.png using Guid(9cd0c5c6bb6b0b643abc394ecfdb9a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9af43397a8129870829516540b5f10') in 0.037684 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/35.png
-  artifactKey: Guid(55e8bd289a0e6864c93df8e64f7e2269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 1/0px/35.png using Guid(55e8bd289a0e6864c93df8e64f7e2269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30683b3395603ca47cbdf376a44776db') in 0.051177 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_character_Mode@3x.png
-  artifactKey: Guid(c22340e383b54c44196cb7765328e79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_character_Mode@3x.png using Guid(c22340e383b54c44196cb7765328e79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f2d599da7cc7ad7852393379344ac3') in 0.039914 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create_Edge.png
-  artifactKey: Guid(ad7b296d426713b4593ee1a19fcbf9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create_Edge.png using Guid(ad7b296d426713b4593ee1a19fcbf9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce776fb8e2e632d6d3c9f07dc81f715') in 0.044673 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedlocaloverlay.png
-  artifactKey: Guid(4da274d970a82a943ae3979e7833f3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedlocaloverlay.png using Guid(4da274d970a82a943ae3979e7833f3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f41fd7150d424ab1e52fb76e6ee6eb') in 0.040157 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_character_Mode@2x.png
-  artifactKey: Guid(d4a1388a0d4ee9c44bcaa86e463a7b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_character_Mode@2x.png using Guid(d4a1388a0d4ee9c44bcaa86e463a7b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36407013dbe3aec2baa9b0d5a8053df') in 0.037924 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone@3x.png
-  artifactKey: Guid(76beef9fdae7b48468ddf07d0400a374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone@3x.png using Guid(76beef9fdae7b48468ddf07d0400a374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373bd9e700c81a2dc2ce16872e7d3047') in 0.046144 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_expertbuhoshechristmas.png
-  artifactKey: Guid(372e7b39fc8f34549ac25d8757965a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_expertbuhoshechristmas.png using Guid(372e7b39fc8f34549ac25d8757965a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49c16fb095a639d2809383d8dc4e7b1') in 0.073383 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/character_Mode.png
-  artifactKey: Guid(d4d64a6cd9624c34a815dd79fb2a20a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/character_Mode.png using Guid(d4d64a6cd9624c34a815dd79fb2a20a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5800fc77dd64a0223a34359a8b0dbf3c') in 0.059834 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconconflictresolvedoverlay@2x.png
-  artifactKey: Guid(309b1d5a294fd6c43ae9cf77656c1852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconconflictresolvedoverlay@2x.png using Guid(309b1d5a294fd6c43ae9cf77656c1852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88445f857f1c1b803f5920b5d641c140') in 0.100243 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconcheckedoutlocaloverlay@2x.png
-  artifactKey: Guid(3999034958d54364da380a8839a11050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconcheckedoutlocaloverlay@2x.png using Guid(3999034958d54364da380a8839a11050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a6690dba34f1cb6682df17fbf6a052') in 0.074001 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Edit_Pose@2x.png
-  artifactKey: Guid(1da4b8d35afa8314198e7b69dc383431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Edit_Pose@2x.png using Guid(1da4b8d35afa8314198e7b69dc383431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664053c8722d118a4bb53aeb0f254076') in 0.073566 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhochristmas3.png
-  artifactKey: Guid(6fac4e39926fd9c4ca2ba4416160a857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhochristmas3.png using Guid(6fac4e39926fd9c4ca2ba4416160a857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77924a67b97339dadb3def1583b89fc5') in 0.145371 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/d_Mesh@3x.png
-  artifactKey: Guid(e79a9e9d6396eba438900afb0357e808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/d_Mesh@3x.png using Guid(e79a9e9d6396eba438900afb0357e808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efeadb8d985c588860e281100defb752') in 0.065079 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Weight_Slider@2x.png
-  artifactKey: Guid(b2aca1e4f59dad54785b6ffded66224a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Weight_Slider@2x.png using Guid(b2aca1e4f59dad54785b6ffded66224a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bdf92de145905806c9f08e5d04d6fa5') in 0.125950 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create_Edge@2x.png
-  artifactKey: Guid(e5da66fa63839274dbffb877e43e888b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create_Edge@2x.png using Guid(e5da66fa63839274dbffb877e43e888b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c955d7bb3c94c905c15c1686a2c995') in 0.045124 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Parent_Bone@2x.png
-  artifactKey: Guid(1038032ed9d668e438d3f97dd8014cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Parent_Bone@2x.png using Guid(1038032ed9d668e438d3f97dd8014cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e96ddba5023ac74a8e7211f0327e2db') in 0.062184 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Generate_Weights@4x.png
-  artifactKey: Guid(8e88614a5d2aead4998a8c70955662c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Generate_Weights@4x.png using Guid(8e88614a5d2aead4998a8c70955662c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90544f1a616940b0963612aa8a86307') in 0.072183 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/36.png
-  artifactKey: Guid(126c903b2a7b69c44a037012eea3ef53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/36.png using Guid(126c903b2a7b69c44a037012eea3ef53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d5a49242f28697ba1808d3727c7401') in 0.082083 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/character_Mode.png
-  artifactKey: Guid(e60718119cec31e4190849292fcde068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/character_Mode.png using Guid(e60718119cec31e4190849292fcde068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f331a1f75315a0ab0084fb29374d8e2') in 0.086989 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninemail.png
-  artifactKey: Guid(d24e7e0b75e1a244bb9687d6fd4315ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninemail.png using Guid(d24e7e0b75e1a244bb9687d6fd4315ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10da6da019136219aee6d096c0b374e') in 0.049836 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Imports/Pixel Skies DEMO/Pixel Skies 1920x1080px (Full HD)/demo03_PixelSky_1920x1080.png
-  artifactKey: Guid(cbef2fb8d44aed94297177261be84de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Skies DEMO/Pixel Skies 1920x1080px (Full HD)/demo03_PixelSky_1920x1080.png using Guid(cbef2fb8d44aed94297177261be84de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c35211294bc6c2b4ee017d2fecd1704') in 0.150702 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/22.png
-  artifactKey: Guid(ab17c7c215765964d915344fab3f163a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/22.png using Guid(ab17c7c215765964d915344fab3f163a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6649d701242a18227e7e4c441c6ad777') in 0.112321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create Bones@3x.png
-  artifactKey: Guid(7835bec40f86c2c4fb3f91a6eb3b7034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create Bones@3x.png using Guid(7835bec40f86c2c4fb3f91a6eb3b7034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9342811d43570f496895b9fdb1f27f2') in 0.063871 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Mesh@3x.png
-  artifactKey: Guid(7a1683154a74c9d4e9f993bd6c54f947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Mesh@3x.png using Guid(7a1683154a74c9d4e9f993bd6c54f947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2fcffc58dae9e173be2b322a3cddc10') in 0.080890 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Generate_Geometry@2x.png
-  artifactKey: Guid(80cc8d218dc9bee4091ecde845959866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Generate_Geometry@2x.png using Guid(80cc8d218dc9bee4091ecde845959866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20c752d61a38cd81b3300b675475230') in 0.058572 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Weight_Slider@4x.png
-  artifactKey: Guid(6816bbef55b2e9847b5e4f06c5475d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Weight_Slider@4x.png using Guid(6816bbef55b2e9847b5e4f06c5475d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df9957a41c37309e9732dcdf25090bf') in 0.095639 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticview.png
-  artifactKey: Guid(dcb2ee37925b97e438ae244996d81a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticview.png using Guid(dcb2ee37925b97e438ae244996d81a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79da033c4876da7a889fc6e7a39ae044') in 0.107713 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Generate_Weights.png
-  artifactKey: Guid(05c5f13370d29414b9489151a4f5c666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Generate_Weights.png using Guid(05c5f13370d29414b9489151a4f5c666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f3c8449274a359d2ee8ff8302bdb5b1') in 0.083173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_expertbuho.png
-  artifactKey: Guid(13e7e6fe43a8aa049bcd610bbc1f5ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_expertbuho.png using Guid(13e7e6fe43a8aa049bcd610bbc1f5ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7fe5dfd8b388dd1b7c33416799576dd') in 0.192076 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create_Vertex@2x.png
-  artifactKey: Guid(8afb57fea8c4eea4a8085e91c810380b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create_Vertex@2x.png using Guid(8afb57fea8c4eea4a8085e91c810380b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44563462a599c14cb8b7074e83c5701d') in 0.051798 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create_Edge@2x.png
-  artifactKey: Guid(3b4e88f5705085042a95960cdcef2561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create_Edge@2x.png using Guid(3b4e88f5705085042a95960cdcef2561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9be7288472a7d8d536b6492a18f447e') in 0.055798 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconplasticnotifyconflict@2x.png
-  artifactKey: Guid(23743f0c0ed1e6546808a5d645c2a6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconplasticnotifyconflict@2x.png using Guid(23743f0c0ed1e6546808a5d645c2a6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775e844059f9afa4ea3c824fa339a2cc') in 0.068556 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/29.png
-  artifactKey: Guid(e59004aa144f69a4390dbea7773a8371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/29.png using Guid(e59004aa144f69a4390dbea7773a8371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f665cb59cb66cb29aaaf247f66e34ac') in 0.057493 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigningoogle.png
-  artifactKey: Guid(f09eae8c0ea04254b90c5386a034a225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigningoogle.png using Guid(f09eae8c0ea04254b90c5386a034a225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1830c6a02c1653ddc3e985cb4ab2e66f') in 0.068272 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconoutofsync@2x.png
-  artifactKey: Guid(d7094718bdac022428dd29244922d06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconoutofsync@2x.png using Guid(d7094718bdac022428dd29244922d06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2053f5404ea4086f7cbb805635beeb2b') in 0.072409 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Edit_Joints@4x.png
-  artifactKey: Guid(11030f66cab4dcd4c989fe1de7a7c79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Edit_Joints@4x.png using Guid(11030f66cab4dcd4c989fe1de7a7c79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b87cf1c71415a54b09f2331ca13074d') in 0.124924 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconclosebutton.png
-  artifactKey: Guid(13527793884104b46b7446fd7464c3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconclosebutton.png using Guid(13527793884104b46b7446fd7464c3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a40868e88afebec7dc2ae36a00c638') in 0.041091 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/d_Visibility_Tool.png
-  artifactKey: Guid(cc4d24c10deda874e9f3470976b7d396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/d_Visibility_Tool.png using Guid(cc4d24c10deda874e9f3470976b7d396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2ba98ad491135b7dc12ea1c51d427d') in 0.085739 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_secondarytabclosehover@2x.png
-  artifactKey: Guid(9aa4348290784b2468144a97eb15d8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_secondarytabclosehover@2x.png using Guid(9aa4348290784b2468144a97eb15d8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72837e3da309a992b669be5e03e2d6c') in 0.107615 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Paste@4x.png
-  artifactKey: Guid(35a3340b835c797478eb139353421953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Paste@4x.png using Guid(35a3340b835c797478eb139353421953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d40dcb7cce8c2edef71fdaeb5bb7884') in 0.076719 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhoshe2.png
-  artifactKey: Guid(17035c204825f6340a252046ab6476fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhoshe2.png using Guid(17035c204825f6340a252046ab6476fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da428cda04d6b974b71acdc36056c5e9') in 0.117124 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_character_Mode@4x.png
-  artifactKey: Guid(395f6b9556f14704790df6035be6ee3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_character_Mode@4x.png using Guid(395f6b9556f14704790df6035be6ee3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7dbf81d05594b858bc9ed2ec1739179') in 0.143257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone_Influence@2x.png
-  artifactKey: Guid(7395bf0bc3cc40e4ab2dda5ec6832261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone_Influence@2x.png using Guid(7395bf0bc3cc40e4ab2dda5ec6832261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5acd47761e83d55a7f20fe85525196cc') in 0.063053 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/25.png
-  artifactKey: Guid(3dff304d6755df74784744e5a2dd60c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 4/1px/25.png using Guid(3dff304d6755df74784744e5a2dd60c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2030a7cfe77640f305fcd322b3beb413') in 0.048599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuho3.png
-  artifactKey: Guid(9e9474494461bd048803b48e391ef0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuho3.png using Guid(9e9474494461bd048803b48e391ef0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064e52871242af7dc1040f4b911b586e') in 0.250901 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Imports/Pixel Skies DEMO/Pixel Skies 240x135px/demo06_PixelSky.png
-  artifactKey: Guid(f6cc67ab8870dda4dbc253117214730e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Skies DEMO/Pixel Skies 240x135px/demo06_PixelSky.png using Guid(f6cc67ab8870dda4dbc253117214730e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def7f13acb1b486dcb0ae2e9984fda4d') in 0.023825 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/32.png
-  artifactKey: Guid(6cba78b8f80807940b4b5dad5602c094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/32.png using Guid(6cba78b8f80807940b4b5dad5602c094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7293c1a90db417fb516d3b3f20d10bd') in 0.847104 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuho1.png
-  artifactKey: Guid(43ad51e043491b94d8f6c62d55ac5ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuho1.png using Guid(43ad51e043491b94d8f6c62d55ac5ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e331a0500c321faf924420bbf78083') in 0.073097 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconoutofsyncoverlay.png
-  artifactKey: Guid(dc633de6e6e7415448c7568418239a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconoutofsyncoverlay.png using Guid(dc633de6e6e7415448c7568418239a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6785c68de57f4eb2c207f1a8f682e0ba') in 0.046878 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Copy@4x.png
-  artifactKey: Guid(5430b5412bcac5b4986be0a875a5e978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Copy@4x.png using Guid(5430b5412bcac5b4986be0a875a5e978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b0addb3348584afefa6a6e70a6c9fb') in 0.069304 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Imports/Pixel Monster Pack/32x32 monsters/cerberus-green.png
-  artifactKey: Guid(bc2749f6e5a54a84cb59b4c89cabc01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Monster Pack/32x32 monsters/cerberus-green.png using Guid(bc2749f6e5a54a84cb59b4c89cabc01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973ae25d7a2113b41bdba599d4081dea') in 0.071527 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticnotifyconflict.png
-  artifactKey: Guid(a916ed6819efd014588f58e3cfc48196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticnotifyconflict.png using Guid(a916ed6819efd014588f58e3cfc48196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7379b387e44d04e20f81f4e01bd6aa') in 0.095799 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhochristmas1.png
-  artifactKey: Guid(e36d1a38d7aa309409e80bf66a089330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhochristmas1.png using Guid(e36d1a38d7aa309409e80bf66a089330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3d456306e7234a9b5e7275c3463e81') in 0.095964 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Edit_Pose.png
-  artifactKey: Guid(9844a6aa871b23547892e819f4dd55c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Edit_Pose.png using Guid(9844a6aa871b23547892e819f4dd55c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3cfaaefe4f86b5da8a1efc412e70ad') in 0.030483 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/23.png
-  artifactKey: Guid(f613eec22f366d141b03a77455864ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 2/0px (sloppy)/23.png using Guid(f613eec22f366d141b03a77455864ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8005e4196d64aecb2a87e8021a966d04') in 0.108082 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconlockedremoteoverlay.png
-  artifactKey: Guid(1046ed65e6aaffb4391378f6d08d6c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconlockedremoteoverlay.png using Guid(1046ed65e6aaffb4391378f6d08d6c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87263f64bd53ed11ddb9ecd187bd3230') in 0.082932 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Mesh@4x.png
-  artifactKey: Guid(39b89ea328c2cad4abef27aedb17a4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Mesh@4x.png using Guid(39b89ea328c2cad4abef27aedb17a4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc3b5d4f6227e74f4f75a5aea919aab') in 0.059775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/2px/16.png
-  artifactKey: Guid(b10e29c3620a94544be81eb29a38a66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 5/2px/16.png using Guid(b10e29c3620a94544be81eb29a38a66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b58806fcad219f4e546ec61d55c0b4') in 0.066150 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/21.png
-  artifactKey: Guid(3efa7342fe969de4bbd9b105f7a42825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Pixel Art - Swords and Staffs/Pack 3/2px/21.png using Guid(3efa7342fe969de4bbd9b105f7a42825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ed0fd9781c59a966e6ff94c0f290df') in 0.087938 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.626559 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Sprite_Mode@3x.png
-  artifactKey: Guid(71d8b2e508f1d9947ba51013600a5eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Sprite_Mode@3x.png using Guid(71d8b2e508f1d9947ba51013600a5eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661231c812246618a6cc977990c2997a') in 0.087392 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.206086 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Sprite_Mode@2x.png
-  artifactKey: Guid(cfe99a1afb609b4488d6fc9224a62f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Sprite_Mode@2x.png using Guid(cfe99a1afb609b4488d6fc9224a62f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ae1b6298eaff30e7979d3613e06819') in 0.026173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Sprite_Mode.png
-  artifactKey: Guid(ca778bc7303b24948abf3e907abbf2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Sprite_Mode.png using Guid(ca778bc7303b24948abf3e907abbf2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c65a3a1bf69c87869b06db9adf456d') in 0.029652 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.015665 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Sprite_Influence@4x.png
-  artifactKey: Guid(e959cb82696cd4dbf9e6b448af425c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Sprite_Influence@4x.png using Guid(e959cb82696cd4dbf9e6b448af425c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa94f4a156bb7735b53008a6bdbc3c68') in 0.037115 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.674200 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Sprite_Influence@3x.png
-  artifactKey: Guid(563e4d2d28c2241fbbb33e85f9b27efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Sprite_Influence@3x.png using Guid(563e4d2d28c2241fbbb33e85f9b27efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e2a7d0b190dc8e236e9544bbee5b89') in 0.075922 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Sprite_Influence.png
-  artifactKey: Guid(768531f76566d4b18bfe4ed7b21e5ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Sprite_Influence.png using Guid(768531f76566d4b18bfe4ed7b21e5ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6dec9f02b84d2d1e76f78d8ccefb36e') in 0.044360 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008329 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\2D v1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\2D v1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.17 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.317 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1318ms)
-		BeginReloadAssembly (181ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (56ms)
-		EndReloadAssembly (998ms)
-			LoadAssemblies (108ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (316ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (447ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (277ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (233ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.77 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.65 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4500 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (243.3 KB). Loaded Objects now: 5173.
-Memory consumption went from 246.6 MB to 246.3 MB.
-Total: 3.992900 ms (FindLiveObjects: 0.349000 ms CreateObjectMapping: 0.126100 ms MarkObjects: 3.307300 ms  DeleteObjects: 0.209100 ms)
+Unloading 4494 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (86.9 KB). Loaded Objects now: 5006.
+Memory consumption went from 168.4 MB to 168.3 MB.
+Total: 2.951600 ms (FindLiveObjects: 0.247000 ms CreateObjectMapping: 0.149100 ms MarkObjects: 2.455700 ms  DeleteObjects: 0.098400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1346,51 +368,68 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 59.548033 seconds.
+  path: Assets/Animations/PlataformsBoss/UpAndDown1.anim
+  artifactKey: Guid(a22cda951d2c12b4c8a0aa4c00c5a96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/PlataformsBoss/UpAndDown1.anim using Guid(a22cda951d2c12b4c8a0aa4c00c5a96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a94b44421437582ddd144bc5cf3f3d') in 0.018846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.945891 seconds.
+  path: Assets/Animations/PlataformsBoss/Island_2.controller
+  artifactKey: Guid(94c1dab302ae69941af0e123dfc587e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/PlataformsBoss/Island_2.controller using Guid(94c1dab302ae69941af0e123dfc587e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e14c2b3ae66509df78273a1b4e98d81') in 0.004490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.178155 seconds.
+  path: Assets/Animations/PlataformsBoss/Island_1.controller
+  artifactKey: Guid(4c6d5662df79da1429f9a95fcd8807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/PlataformsBoss/Island_1.controller using Guid(4c6d5662df79da1429f9a95fcd8807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe48d97ab3eefd8aaffe52ba69e4579') in 0.003637 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008445 seconds.
+Registered in 0.005747 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\2D v1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity Projects\2D v1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\GitHub\jogo1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Documents\GitHub\jogo1\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.24 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.387 seconds
+- Completed reload, in  1.036 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1388ms)
-		BeginReloadAssembly (181ms)
+	ReloadAssembly (1037ms)
+		BeginReloadAssembly (129ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (1069ms)
-			LoadAssemblies (124ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (819ms)
+			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (366ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (465ms)
+			SetupTypeCache (253ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (379ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (292ms)
-				ProcessInitializeOnLoadMethodAttributes (55ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (232ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.50 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.97 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4500 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (258.8 KB). Loaded Objects now: 5176.
-Memory consumption went from 246.6 MB to 246.3 MB.
-Total: 4.768400 ms (FindLiveObjects: 0.364400 ms CreateObjectMapping: 0.134500 ms MarkObjects: 4.014300 ms  DeleteObjects: 0.253700 ms)
+Unloading 4494 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (71.5 KB). Loaded Objects now: 5009.
+Memory consumption went from 168.4 MB to 168.4 MB.
+Total: 3.489800 ms (FindLiveObjects: 0.265900 ms CreateObjectMapping: 0.199800 ms MarkObjects: 2.901700 ms  DeleteObjects: 0.120900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1402,7 +441,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
