@@ -26,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float dashTime;
     [SerializeField] private float dashCooldown;
     [SerializeField] private TrailRenderer trail;
+    [SerializeField] private Animator anim;
 
     void Start()
     {
@@ -63,6 +64,7 @@ public class PlayerMovement : MonoBehaviour
             if (wJumpCooldown > 0.1f)
             {
                 rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y); // Move horizontally
+                
 
                 if (onWall && !isGrounded)
                 {
@@ -91,11 +93,17 @@ public class PlayerMovement : MonoBehaviour
                 StartCoroutine(Dash());
             }
         }
+        if (horizontalInput != 0 && isGrounded)
+        {
+            anim.Play("Player_walk");
+        }
     }
 
     //Jump Logic
     private void Jump()
     {
+        anim.Play("Player_jump");
+
         if (isGrounded) // Regular Jump
         {
             rb.velocity = new Vector2(rb.velocity.x, vJumpForce);

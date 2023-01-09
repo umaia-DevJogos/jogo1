@@ -8,7 +8,7 @@ public class PlayerAdditional : MonoBehaviour
     private int starthp = 5;
     private SpriteRenderer sprite;
     [SerializeField] private ParticleSystem particles;
-    [SerializeField] private GameObject UI;
+    private GameObject UI;
     public Vector3 respawnpoint;
     public int coins = 0;
     [SerializeField] private int coinsMax;
@@ -18,6 +18,7 @@ public class PlayerAdditional : MonoBehaviour
         respawnpoint = new Vector3(PlayerPrefs.GetFloat("Xrespawn"), PlayerPrefs.GetFloat("Yrespawn"), PlayerPrefs.GetFloat("Zrespawn"));
         if(respawnpoint != new Vector3(0,0,0))
         transform.position = respawnpoint;
+        UI = GameObject.Find("UI");
     }
     private void Start()
     {
