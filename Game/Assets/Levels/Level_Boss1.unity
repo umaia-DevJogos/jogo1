@@ -270,7 +270,7 @@ GameObject:
   - component: {fileID: 106804925}
   m_Layer: 8
   m_Name: Ground (10)
-  m_TagString: Ground
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -283,8 +283,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 106804923}
   m_LocalRotation: {x: -0, y: -0, z: 0.7041366, w: -0.71006453}
-  m_LocalPosition: {x: 29.0627, y: -3.5762, z: -0.78974485}
-  m_LocalScale: {x: 21.43237, y: 1, z: 1}
+  m_LocalPosition: {x: 29.0635, y: -3.6804, z: -0.78974485}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1886201289}
@@ -308,9 +308,9 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1, y: 1}
-    newSize: {x: 5, y: 5}
+    newSize: {x: 21.12829, y: 1}
     adaptiveTilingThreshold: 0.497
-    drawMode: 0
+    drawMode: 2
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
@@ -361,8 +361,8 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 5, y: 5}
+  m_DrawMode: 2
+  m_Size: {x: 21.12829, y: 1}
   m_AdaptiveModeThreshold: 0.497
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -641,7 +641,7 @@ GameObject:
   - component: {fileID: 211420463}
   - component: {fileID: 211420465}
   - component: {fileID: 211420464}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Saw_3 (4)
   m_TagString: Trap
   m_Icon: {fileID: 0}
@@ -1158,9 +1158,9 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1, y: 1}
-    newSize: {x: 5, y: 5}
+    newSize: {x: 7.4045296, y: 1}
     adaptiveTilingThreshold: 0.497
-    drawMode: 0
+    drawMode: 2
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
@@ -1211,8 +1211,8 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 5, y: 5}
+  m_DrawMode: 2
+  m_Size: {x: 7.4045296, y: 1}
   m_AdaptiveModeThreshold: 0.497
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1226,8 +1226,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 506983841}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.9064, y: -13.865595, z: -0.78974485}
-  m_LocalScale: {x: 8.193942, y: 1, z: 1}
+  m_LocalPosition: {x: 10.6906, y: -13.865595, z: -0.78974485}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1886201289}
@@ -2570,7 +2570,7 @@ Transform:
   m_GameObject: {fileID: 788365073}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -8.895726, y: -13.865595, z: -0.78974485}
-  m_LocalScale: {x: 10, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1886201289}
@@ -2594,9 +2594,9 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1, y: 1}
-    newSize: {x: 5, y: 5}
+    newSize: {x: 10, y: 1}
     adaptiveTilingThreshold: 0.497
-    drawMode: 0
+    drawMode: 2
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
@@ -2647,8 +2647,8 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 5, y: 5}
+  m_DrawMode: 2
+  m_Size: {x: 10, y: 1}
   m_AdaptiveModeThreshold: 0.497
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2741,7 +2741,7 @@ GameObject:
   - component: {fileID: 971027418}
   - component: {fileID: 971027420}
   - component: {fileID: 971027419}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Saw_3
   m_TagString: Trap
   m_Icon: {fileID: 0}
@@ -2852,7 +2852,7 @@ GameObject:
   - component: {fileID: 1130420228}
   - component: {fileID: 1130420230}
   - component: {fileID: 1130420229}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Saw_3 (2)
   m_TagString: Trap
   m_Icon: {fileID: 0}
@@ -3760,9 +3760,9 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1, y: 1}
-    newSize: {x: 5, y: 5}
+    newSize: {x: 7.569928, y: 1}
     adaptiveTilingThreshold: 0.497
-    drawMode: 0
+    drawMode: 2
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
@@ -3813,8 +3813,8 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 5, y: 5}
+  m_DrawMode: 2
+  m_Size: {x: 7.569928, y: 1}
   m_AdaptiveModeThreshold: 0.497
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3828,8 +3828,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1528617460}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.5782, y: -13.9, z: -0.78974485}
-  m_LocalScale: {x: 7.2624016, y: 1, z: 1}
+  m_LocalPosition: {x: 1.3932, y: -13.9, z: -0.78974485}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1886201289}
@@ -3949,9 +3949,9 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1, y: 1}
-    newSize: {x: 5, y: 5}
+    newSize: {x: 41.516792, y: 1}
     adaptiveTilingThreshold: 0.497
-    drawMode: 0
+    drawMode: 2
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
@@ -4002,8 +4002,8 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 5, y: 5}
+  m_DrawMode: 2
+  m_Size: {x: 41.516792, y: 1}
   m_AdaptiveModeThreshold: 0.497
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -4017,8 +4017,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1556081330}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.3117, y: 6.3144054, z: -0.78974485}
-  m_LocalScale: {x: 42.483257, y: 1, z: 1}
+  m_LocalPosition: {x: 7.7519, y: 6.3144054, z: -0.78974485}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1886201289}
@@ -4111,7 +4111,7 @@ GameObject:
   - component: {fileID: 1648922685}
   - component: {fileID: 1648922687}
   - component: {fileID: 1648922686}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Saw_3 (5)
   m_TagString: Trap
   m_Icon: {fileID: 0}
@@ -4222,7 +4222,7 @@ GameObject:
   - component: {fileID: 1695508772}
   - component: {fileID: 1695508774}
   - component: {fileID: 1695508773}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Saw_3 (1)
   m_TagString: Trap
   m_Icon: {fileID: 0}
@@ -4654,7 +4654,7 @@ GameObject:
   - component: {fileID: 1873978785}
   - component: {fileID: 1873978787}
   - component: {fileID: 1873978786}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Saw_3 (3)
   m_TagString: Trap
   m_Icon: {fileID: 0}
@@ -5103,7 +5103,7 @@ GameObject:
   - component: {fileID: 2027242080}
   m_Layer: 8
   m_Name: Ground (4)
-  m_TagString: Ground
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5126,9 +5126,9 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1, y: 1}
-    newSize: {x: 5, y: 5}
+    newSize: {x: 20.230896, y: 1}
     adaptiveTilingThreshold: 0.497
-    drawMode: 0
+    drawMode: 2
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
@@ -5179,8 +5179,8 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 5, y: 5}
+  m_DrawMode: 2
+  m_Size: {x: 20.230896, y: 1}
   m_AdaptiveModeThreshold: 0.497
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -5194,8 +5194,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2027242079}
   m_LocalRotation: {x: -0, y: -0, z: 0.7077449, w: 0.7064681}
-  m_LocalPosition: {x: -13.44, y: -3.3826, z: -0.78974485}
-  m_LocalScale: {x: 20.211039, y: 1, z: 1}
+  m_LocalPosition: {x: -13.4401, y: -3.2878, z: -0.78974485}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1886201289}
@@ -5372,9 +5372,9 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1, y: 1}
-    newSize: {x: 5, y: 5}
+    newSize: {x: 10.980503, y: 1}
     adaptiveTilingThreshold: 0.497
-    drawMode: 0
+    drawMode: 2
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
@@ -5425,8 +5425,8 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 5, y: 5}
+  m_DrawMode: 2
+  m_Size: {x: 10.980503, y: 1}
   m_AdaptiveModeThreshold: 0.497
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -5440,8 +5440,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2074358037}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 22.6291, y: -13.865595, z: -0.78974485}
-  m_LocalScale: {x: 12.286, y: 1, z: 1}
+  m_LocalPosition: {x: 21.7351, y: -13.865595, z: -0.78974485}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1886201289}
