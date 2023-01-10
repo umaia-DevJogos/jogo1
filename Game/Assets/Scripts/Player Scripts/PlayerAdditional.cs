@@ -77,7 +77,7 @@ public class PlayerAdditional : MonoBehaviour
         gameObject.GetComponent<Animator>().Play("player_die1");
         particles.Emit(20);
         Destroy(gameObject, 0.25f);
-        Destroy(particles.transform.parent.gameObject, 1.5f);
+        //Destroy(particles.transform.parent.gameObject, 1.5f);
         UI.gameObject.SetActive(true);
     }
 

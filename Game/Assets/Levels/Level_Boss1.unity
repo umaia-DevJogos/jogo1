@@ -641,6 +641,7 @@ GameObject:
   - component: {fileID: 211420463}
   - component: {fileID: 211420465}
   - component: {fileID: 211420464}
+  - component: {fileID: 211420466}
   m_Layer: 7
   m_Name: Saw_3 (4)
   m_TagString: Trap
@@ -656,7 +657,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 211420462}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.700262, y: 1.1910219, z: -0.38788295}
+  m_LocalPosition: {x: 18.38, y: 1.1910219, z: -0.38788295}
   m_LocalScale: {x: 2.2646, y: 2.0684, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -741,6 +742,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &211420466
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211420462}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b86e4f674ccbc704f9f60f0916c26b03, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &367098638
 GameObject:
   m_ObjectHideFlags: 0
@@ -2741,6 +2762,7 @@ GameObject:
   - component: {fileID: 971027418}
   - component: {fileID: 971027420}
   - component: {fileID: 971027419}
+  - component: {fileID: 971027421}
   m_Layer: 7
   m_Name: Saw_3
   m_TagString: Trap
@@ -2756,7 +2778,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 971027417}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -22.009739, y: -6.888978, z: 0}
+  m_LocalPosition: {x: -22.09, y: -6.888978, z: 0}
   m_LocalScale: {x: 2.2646, y: 2.0684, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2841,6 +2863,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &971027421
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971027417}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f62b13f36d199864dacdbcdd1aeed58c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1130420227
 GameObject:
   m_ObjectHideFlags: 0
@@ -2852,6 +2894,7 @@ GameObject:
   - component: {fileID: 1130420228}
   - component: {fileID: 1130420230}
   - component: {fileID: 1130420229}
+  - component: {fileID: 1130420231}
   m_Layer: 7
   m_Name: Saw_3 (2)
   m_TagString: Trap
@@ -2867,7 +2910,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1130420227}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.0697384, y: 7.5510206, z: 0}
+  m_LocalPosition: {x: -7.0697384, y: 7.68, z: 0}
   m_LocalScale: {x: 2.2646, y: 2.0684, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2952,6 +2995,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1130420231
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130420227}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 502033fc55c5cee4d9169c1054391d7a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1132830432
 GameObject:
   m_ObjectHideFlags: 0
@@ -4111,6 +4174,7 @@ GameObject:
   - component: {fileID: 1648922685}
   - component: {fileID: 1648922687}
   - component: {fileID: 1648922686}
+  - component: {fileID: 1648922688}
   m_Layer: 7
   m_Name: Saw_3 (5)
   m_TagString: Trap
@@ -4126,7 +4190,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1648922684}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.540262, y: -7.2489786, z: 0}
+  m_LocalPosition: {x: 18.41, y: -7.2489786, z: 0}
   m_LocalScale: {x: 2.2646, y: 2.0684, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4211,6 +4275,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1648922688
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648922684}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a1a4d0788b9622b40907656bb3355f64, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1695508771
 GameObject:
   m_ObjectHideFlags: 0
@@ -4222,6 +4306,7 @@ GameObject:
   - component: {fileID: 1695508772}
   - component: {fileID: 1695508774}
   - component: {fileID: 1695508773}
+  - component: {fileID: 1695508775}
   m_Layer: 7
   m_Name: Saw_3 (1)
   m_TagString: Trap
@@ -4237,7 +4322,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1695508771}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.070261, y: 7.5410223, z: 0}
+  m_LocalPosition: {x: 10.070261, y: 7.7, z: 0}
   m_LocalScale: {x: 2.2646, y: 2.0684, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4322,6 +4407,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1695508775
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695508771}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2998cbe50b9f31847ae7680d4111e706, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1760891160
 GameObject:
   m_ObjectHideFlags: 0
@@ -4654,6 +4759,7 @@ GameObject:
   - component: {fileID: 1873978785}
   - component: {fileID: 1873978787}
   - component: {fileID: 1873978786}
+  - component: {fileID: 1873978788}
   m_Layer: 7
   m_Name: Saw_3 (3)
   m_TagString: Trap
@@ -4669,7 +4775,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1873978784}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -21.949738, y: 1.0410223, z: 0}
+  m_LocalPosition: {x: -22.14, y: 1.0410223, z: 0}
   m_LocalScale: {x: 2.2646, y: 2.0684, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4754,6 +4860,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1873978788
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873978784}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cc09246ad0fd683409333996aa59a791, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1886201288
 GameObject:
   m_ObjectHideFlags: 0
