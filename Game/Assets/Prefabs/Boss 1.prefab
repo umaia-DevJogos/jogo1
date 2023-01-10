@@ -4996,7 +4996,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcc9a071e512a9a4fb160f39993182ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectileLimit: 10
+  projectileLimit: 12
   minAngle: 0
   maxAngle: 360
   waveCooldownOut: 4

@@ -69,7 +69,7 @@ public class FireScript : MonoBehaviour
             spriteRenderer.sprite = firingSprite;
             yield return new WaitForSeconds(0.5f);
             spriteRenderer.sprite = normalSprite;
-            Fire(projectileLimit * 2);
+            Fire(projectileLimit);
         }
     }
 }
