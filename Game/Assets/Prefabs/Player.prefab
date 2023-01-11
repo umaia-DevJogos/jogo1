@@ -144,8 +144,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58f3e907e819fc348b51cc7b49402f29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
-  maxhealth: 5
+  objectPA: {fileID: 0}
+  hp: 0
+  textHp: 0
   player: {fileID: 0}
 --- !u!1 &3135095590319891988
 GameObject:
@@ -5192,14 +5193,7 @@ MonoBehaviour:
   respawnpoint: {x: 0, y: 0, z: 0}
   coins: 0
   coinsMax: 10
-  DyingSound: {fileID: 8300000, guid: 1b52c5b8d420c9242b09f48ccdd6cb32, type: 3}
-  fullHeart: {fileID: 21300000, guid: 6672e486ef1eb5d4d9271d13a4ac5674, type: 3}
-  hearts:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  DyingSound: {fileID: 8300000, guid: 48988c71593756e45b372bd242f07f4f, type: 3}
 --- !u!96 &3135095591030272418
 TrailRenderer:
   serializedVersion: 2
