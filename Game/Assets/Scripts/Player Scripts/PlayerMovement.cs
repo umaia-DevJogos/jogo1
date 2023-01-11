@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public AudioSource SoundToPlay;
     [SerializeField] private float speed;
     [SerializeField] private float vJumpForce;
     [SerializeField] private float hJumpForce;
@@ -193,5 +194,20 @@ public class PlayerMovement : MonoBehaviour
         isDashing = false;
         yield return new WaitForSeconds(dashCooldown);
         canDash = true;
+    }
+
+    private void OnApplicationPause(bool pause)
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (SoundToPlay.isPlaying)
+            {
+                SoundToPlay.Pause();
+            }
+            else
+            {
+                SoundToPlay.Play();
+            }
+        }
     }
 }

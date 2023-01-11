@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerAdditional : MonoBehaviour
 {
@@ -12,6 +13,12 @@ public class PlayerAdditional : MonoBehaviour
     public Vector3 respawnpoint;
     public int coins = 0;
     [SerializeField] private int coinsMax;
+    [SerializeField] private AudioClip DyingSound;
+    [SerializeField] private Sprite fullHeart;
+    [SerializeField] private Image[] hearts;
+
+
+
 
     private void Awake()
     {
@@ -21,6 +28,7 @@ public class PlayerAdditional : MonoBehaviour
     }
     private void Start()
     {
+
         sprite = GetComponent<SpriteRenderer>();
         respawnpoint = gameObject.transform.position;
         starthp = hp;
@@ -58,11 +66,26 @@ public class PlayerAdditional : MonoBehaviour
         sprite.color = new Color(255, 0, 0, 1);
         StartCoroutine(death());
         collectCoin(0); // check if hp can be added
+
+        for (int i = 0; i < hearts.Length; i++)
+        {
+            if (i < starthp)
+            {
+                hearts[i].enabled = true;
+            }
+            else
+            {
+                hearts[i].enabled = false;
+            }
+
+        }
+
     }
     IEnumerator death()
     {
         if (hp <= 0)
         {
+            
             die();
         }
         else
@@ -78,6 +101,8 @@ public class PlayerAdditional : MonoBehaviour
         particles.Emit(20);
         Destroy(gameObject, 0.25f);
         //Destroy(particles.transform.parent.gameObject, 1.5f);
+        AudioSource.PlayClipAtPoint(DyingSound, transform.position);
+        Debug.Log("BarulhoPO CARKHOE");
         UI.gameObject.SetActive(true);
     }
 

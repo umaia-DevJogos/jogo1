@@ -22,4 +22,20 @@ public class CameraController : MonoBehaviour
             transform.position = smoothPosition;
         }
     }
+
+
+    public void Pause()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            //audio.Pause();
+            Camera.main.GetComponent<AudioSource>().Pause();
+        }
+
+        if (Input.GetKeyUp(KeyCode.Escape))
+        {
+            //audio.UnPause();
+            Camera.main.GetComponent<AudioSource>().UnPause();
+        }
+    }
 }

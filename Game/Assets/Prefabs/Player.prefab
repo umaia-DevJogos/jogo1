@@ -5010,6 +5010,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff5a337589497544b8a6efd99a684539, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SoundToPlay: {fileID: 0}
   speed: 10
   vJumpForce: 15
   hJumpForce: 20
@@ -5042,6 +5043,7 @@ MonoBehaviour:
   respawnpoint: {x: 0, y: 0, z: 0}
   coins: 0
   coinsMax: 10
+  DyingSound: {fileID: 8300000, guid: 1b52c5b8d420c9242b09f48ccdd6cb32, type: 3}
 --- !u!96 &3135095591030272418
 TrailRenderer:
   serializedVersion: 2
