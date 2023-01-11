@@ -3709,6 +3709,10 @@ PrefabInstance:
       propertyPath: objectPA
       value: 
       objectReference: {fileID: 1630527035}
+    - target: {fileID: 2126367066, guid: e6d8d67c7cddebf40a272ac8c96b4929, type: 3}
+      propertyPath: objectPA
+      value: 
+      objectReference: {fileID: 1630527035}
     - target: {fileID: 3135095590933702448, guid: e6d8d67c7cddebf40a272ac8c96b4929, type: 3}
       propertyPath: m_RootOrder
       value: 1
