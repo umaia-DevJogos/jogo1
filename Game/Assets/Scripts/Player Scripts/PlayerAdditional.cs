@@ -60,7 +60,7 @@ public class PlayerAdditional : MonoBehaviour
         }
     }
 
-    private void takeDamage(int dmg)
+    public void takeDamage(int dmg)
     {
         hp = hp - dmg;
         sprite.color = new Color(255, 0, 0, 1);
