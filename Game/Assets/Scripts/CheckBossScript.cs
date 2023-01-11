@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class CheckBossScript : MonoBehaviour
 {
-    [SerializeField] int MainMenu = 0;
+    [SerializeField] int Level_3 = 4;
     private GameObject boss;
     void Start()
     {
@@ -15,12 +15,12 @@ public class CheckBossScript : MonoBehaviour
     {
         if(boss == null)
         {
-            StartCoroutine(backToMenu());
+            StartCoroutine(goToLevel3());
         }
     }
-    IEnumerator backToMenu()
+    IEnumerator goToLevel3()
     {
         yield return new WaitForSeconds(5f);
-        SceneManager.LoadScene(MainMenu);
+        SceneManager.LoadScene(Level_3);
     }
 }

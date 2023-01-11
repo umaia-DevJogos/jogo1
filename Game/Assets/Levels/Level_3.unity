@@ -1937,8 +1937,8 @@ GameObject:
   m_Component:
   - component: {fileID: 398017299}
   - component: {fileID: 398017298}
-  - component: {fileID: 398017297}
   - component: {fileID: 398017296}
+  - component: {fileID: 398017300}
   m_Layer: 0
   m_Name: Finish
   m_TagString: Untagged
@@ -1972,19 +1972,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &398017297
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 398017295}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b67674eba137c140b3b09bf85aa0da3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Level_Boss: 2
 --- !u!212 &398017298
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2052,6 +2039,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &398017300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398017295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09376a014f41e484ebd763702cf439d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Main_Menu: 0
 --- !u!1001 &411623630
 PrefabInstance:
   m_ObjectHideFlags: 0
