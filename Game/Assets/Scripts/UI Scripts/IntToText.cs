@@ -25,7 +25,14 @@ public class IntToText : MonoBehaviour
     {
         if (Value != objectPA.hp)
         {
-            Value = objectPA.hp;
+            if (objectPA.hp < 0)
+            {
+                Value = 0;
+            }
+            else
+            {
+                Value = objectPA.hp;
+            }
         }
     }
 }
