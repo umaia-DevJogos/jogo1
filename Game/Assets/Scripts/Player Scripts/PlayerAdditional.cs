@@ -14,9 +14,6 @@ public class PlayerAdditional : MonoBehaviour
     public int coins = 0;
     [SerializeField] private int coinsMax;
     [SerializeField] private AudioClip DyingSound;
-    [SerializeField] private Sprite fullHeart;
-    [SerializeField] private Image[] hearts;
-
 
 
 
@@ -67,18 +64,7 @@ public class PlayerAdditional : MonoBehaviour
         StartCoroutine(death());
         collectCoin(0); // check if hp can be added
 
-        for (int i = 0; i < hearts.Length; i++)
-        {
-            if (i < starthp)
-            {
-                hearts[i].enabled = true;
-            }
-            else
-            {
-                hearts[i].enabled = false;
-            }
-
-        }
+        
 
     }
     IEnumerator death()
