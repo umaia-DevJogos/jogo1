@@ -14,7 +14,8 @@ public class PlayerAdditional : MonoBehaviour
     public int coins = 0;
     [SerializeField] private int coinsMax;
     [SerializeField] private AudioClip DyingSound;
-
+    private float dmgCooldown = 0f;
+    private int audioCount = 0;
 
 
     private void Awake()
@@ -39,33 +40,36 @@ public class PlayerAdditional : MonoBehaviour
         }
         Debug.Log("Coins" + coins);
         Debug.Log("HP: " + hp);
+
+        dmgCooldown -= Time.deltaTime;
     }
 
     private void OnCollisionEnter2D(Collision2D collision) // Check if enemy hit player
     {
-        if (collision.transform.tag == "Enemy" && collision.transform.name != "Boss")
+        if (dmgCooldown <= 0f)
         {
-            takeDamage(1);
+            if (collision.transform.tag == "Enemy" && collision.transform.name != "Boss")
+            {
+                takeDamage(1);
 
-        } else if(collision.transform.tag == "Projectile")
-        {
-            takeDamage(1);
-        }
-        else if (collision.transform.tag == "Trap")
-        {
-            takeDamage(10);
+            }
+            else if (collision.transform.tag == "Projectile")
+            {
+                takeDamage(1);
+            }
+            else if (collision.transform.tag == "Trap")
+            {
+                takeDamage(10);
+            }
         }
     }
-
     public void takeDamage(int dmg)
     {
+        dmgCooldown = 0.25f;
         hp = hp - dmg;
         sprite.color = new Color(255, 0, 0, 1);
         StartCoroutine(death());
         collectCoin(0); // check if hp can be added
-
-        
-
     }
     IEnumerator death()
     {
@@ -87,8 +91,11 @@ public class PlayerAdditional : MonoBehaviour
         particles.Emit(20);
         Destroy(gameObject, 0.25f);
         //Destroy(particles.transform.parent.gameObject, 1.5f);
-        AudioSource.PlayClipAtPoint(DyingSound, transform.position);
-        Debug.Log("BarulhoPO CARKHOE");
+        audioCount++;
+        if (audioCount == 1)
+        {
+            AudioSource.PlayClipAtPoint(DyingSound, transform.position);
+        }
         UI.gameObject.SetActive(true);
     }
 

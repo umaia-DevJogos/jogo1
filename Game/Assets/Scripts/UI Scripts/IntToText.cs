@@ -6,32 +6,36 @@ using UnityEngine.UI;
 public class IntToText : MonoBehaviour
 {
     [SerializeField] private PlayerAdditional objectPA;
-    [SerializeField] private int Value = 5;
-    [SerializeField] private Text ValueText;
+    [SerializeField] private PlayerMovement objectPM;
+    [SerializeField] private int ValueHP = 5;
+    [SerializeField] private Text ValueTextCoins;
+    [SerializeField] private Text ValueTextHP;
+    [SerializeField] private Text BugJumpCounter; 
     // Start is called before the first frame update
     void Start()
     {
-        Value = objectPA.hp;
+        ValueHP = objectPA.hp;
     }
 
     // Update is called once per frame
     void Update()
     {
         ChangeHpText();
-        ValueText.text = Value.ToString();
-        
+        ValueTextHP.text = ValueHP.ToString();
+        ValueTextCoins.text = objectPA.coins.ToString();
+        BugJumpCounter.text = (Mathf.Round(objectPM.bugJumpMeter * 10f) / 10f).ToString();
     }
     public void ChangeHpText()
     {
-        if (Value != objectPA.hp)
+        if (ValueHP != objectPA.hp)
         {
             if (objectPA.hp < 0)
             {
-                Value = 0;
+                ValueHP = 0;
             }
             else
             {
-                Value = objectPA.hp;
+                ValueHP = objectPA.hp;
             }
         }
     }

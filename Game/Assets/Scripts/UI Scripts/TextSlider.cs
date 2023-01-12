@@ -15,6 +15,7 @@ public class TextSlider : MonoBehaviour
         SetNumberText(slider.value);
     }
     public void SetNumberText(float value) {
+        value = Mathf.RoundToInt(value * 100);
         numberText.text = value.ToString();
     }
 }
