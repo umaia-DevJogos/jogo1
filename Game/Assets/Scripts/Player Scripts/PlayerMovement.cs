@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float hJumpForce;
     [SerializeField] private float bugJumpForce;
     public float bugJumpMeter;
-    [SerializeField] private float bugJumpMeterOut;
+    [SerializeField] public float bugJumpMeterOut;
     private bool isGrounded;
     private bool onWall;
     [SerializeField] private LayerMask terrainL;

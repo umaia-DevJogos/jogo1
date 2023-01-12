@@ -16,7 +16,6 @@ public class IntToText : MonoBehaviour
     void Start()
     {
         ValueHP = objectPA.hp;
-        bugjumpbar = GetComponent<Image>();
     }
 
     // Update is called once per frame
@@ -25,8 +24,8 @@ public class IntToText : MonoBehaviour
         ChangeHpText();
         ValueTextHP.text = ValueHP.ToString();
         ValueTextCoins.text = objectPA.coins.ToString();
-        BugJumpCounter.text = (Mathf.Round(objectPM.bugJumpMeter * 10f) / 10f).ToString();
-        bugjumpbar.fillAmount = objectPM.bugJumpMeter;
+        //BugJumpCounter.text = (Mathf.Round(objectPM.bugJumpMeter * 10f) / 10f).ToString();
+        //bugjumpbar.fillAmount = objectPM.bugJumpMeter;
         bugJumpMeter();
     }
     public void ChangeHpText()
@@ -45,6 +44,6 @@ public class IntToText : MonoBehaviour
     }
     public void bugJumpMeter()
     {
-        bugjumpbar.fillAmount = objectPM.bugJumpMeter;
+        bugjumpbar.fillAmount = objectPM.bugJumpMeter/objectPM.bugJumpMeterOut;
     }
 }
