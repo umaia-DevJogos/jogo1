@@ -27,7 +27,7 @@ public class IntToText : MonoBehaviour
         ValueTextCoins.text = objectPA.coins.ToString();
         BugJumpCounter.text = (Mathf.Round(objectPM.bugJumpMeter * 10f) / 10f).ToString();
         bugjumpbar.fillAmount = objectPM.bugJumpMeter;
-
+        bugJumpMeter();
     }
     public void ChangeHpText()
     {
@@ -45,7 +45,6 @@ public class IntToText : MonoBehaviour
     }
     public void bugJumpMeter()
     {
-        bugjumpbar.fillAmount = 5;
         bugjumpbar.fillAmount = objectPM.bugJumpMeter;
     }
 }
